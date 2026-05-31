@@ -122,6 +122,10 @@
               "type": "title_subtitle",
               "title": "Ru'Ten",
               "subtitle": "Devouring Loci"
+            },
+            {
+              "type": "subtitle",
+              "message": "Devouring Loci"
             }
           ]
         },
@@ -538,6 +542,10 @@
         {
           "type": "chat",
           "contains": "@PLAYERNAME has defeated Iota in P.O.R.T.A.L. Strike!"
+        },
+        {
+          "type": "bossbar_remove",
+          "bossbar": "Iota"
         }
       ],
       "splits": [
@@ -572,6 +580,10 @@
             {
               "type": "chat",
               "starts_with": "[Iota] INTRU"
+            },
+            {
+              "type": "bossbar_add",
+              "bossbar": "Iota"
             }
           ]
         },
@@ -612,6 +624,10 @@
             {
               "type": "chat",
               "contains": "@PLAYERNAME has defeated Iota in P.O.R.T.A.L. Strike!"
+            },
+            {
+              "type": "bossbar_remove",
+              "bossbar": "Iota"
             }
           ]
         }
@@ -1006,6 +1022,10 @@
               "type": "bossbar",
               "bossbar": "Twisted",
               "value": 0.85
+            },
+            {
+              "type": "chat",
+              "message": "YOU ARE NOT. ALONE HERE."
             }
           ],
           "since": "run_start"
@@ -1028,6 +1048,10 @@
               "type": "bossbar",
               "bossbar": "Twisted",
               "value": 0.6
+            },
+            {
+              "type": "chat",
+              "message": "YOU ARE NOT. ALONE HERE."
             }
           ],
           "since": "run_start"
@@ -1050,6 +1074,10 @@
               "type": "bossbar",
               "bossbar": "Twisted",
               "value": 0.5
+            },
+            {
+              "type": "chat",
+              "message": "THOSE. WHO SLUMBERED HERE. AWAKEN."
             }
           ],
           "since": "run_start"
@@ -1062,6 +1090,10 @@
               "type": "bossbar",
               "bossbar": "Twisted",
               "value": 0.35
+            },
+            {
+              "type": "chat",
+              "message": "YOUR MIND. WILL. BE MINE."
             }
           ],
           "since": "run_start"
@@ -1084,6 +1116,10 @@
               "type": "bossbar",
               "bossbar": "Twisted",
               "value": 0.25
+            },
+            {
+              "type": "chat",
+              "message": "THOSE MEMORIES. THEY WERE NOT ENOUGH."
             }
           ],
           "since": "run_start"
