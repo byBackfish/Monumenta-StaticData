@@ -1,0 +1,2149 @@
+{
+  "schemaVersion": 1,
+  "content": [
+    {
+      "id": "celestial_zenith",
+      "displayName": "Celestial Zenith",
+      "category": "dungeon",
+      "sources": [
+        "MCU",
+        "MMEv2"
+      ],
+      "startTriggers": [
+        {
+          "type": "title",
+          "message": "The Celestial Zenith"
+        },
+        {
+          "type": "chat",
+          "starts_with": "Transferring you to zenith",
+          "ignoreCase": true
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME defeated the Celestial Zenith! (Ascension Level:",
+          "difficultyRegex": "\\(Ascension Level:\\s*(\\d+)\\)"
+        },
+        {
+          "type": "chat",
+          "message": "[The Vesperidys] You will be devoured by the vessels still above."
+        }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "contains": "[Zenith Party] Sending you to loot room"
+        }
+      ],
+      "splits": [
+        {
+          "id": "f1_clear",
+          "name": "F1 Clear",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "subtitle",
+              "message": "Blight of the Beyond"
+            }
+          ]
+        },
+        {
+          "id": "callicarpa",
+          "name": "Callicarpa",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Callicarpa] Oh yes, at last, the voice recedes... with final breath... I am now freed..."
+            }
+          ]
+        },
+        {
+          "id": "f2_clear",
+          "name": "F2 Clear",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "The Broodmother"
+            }
+          ]
+        },
+        {
+          "id": "broodmother",
+          "name": "Broodmother",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Zenith Party] You received a Celestial Gift for clearing the floor! Check your Trinket to claim the gift."
+            }
+          ]
+        },
+        {
+          "id": "f3_clear",
+          "name": "F3 Clear",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "subtitle",
+              "message": "The Abyssal Overmind"
+            }
+          ]
+        },
+        {
+          "id": "vesperidys",
+          "name": "Vesperidys",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[The Vesperidys] You will be devoured by the vessels still above."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hexfall",
+      "displayName": "Hexfall",
+      "category": "raid",
+      "sources": [
+        "MCU",
+        "MMA"
+      ],
+      "startTriggers": [
+        {
+          "type": "title",
+          "message": "Hexfall"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME has conquered Hexfall!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "clear",
+          "name": "Clear",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "subtitle",
+              "message": "Devouring Loci"
+            }
+          ]
+        },
+        {
+          "id": "ruten",
+          "name": "Ru'Ten",
+          "triggers": [
+            {
+              "type": "subtitle",
+              "message": "Ru'Ten, Devouring Loci"
+            }
+          ]
+        },
+        {
+          "id": "ruten_75",
+          "name": "Ru'Ten 75%",
+          "triggers": [
+            {
+              "type": "bossbar",
+              "bossbar": "Ru'Ten, Arcane Abomination",
+              "value": 0.75
+            }
+          ]
+        },
+        {
+          "id": "ruten_50",
+          "name": "Ru'Ten 50%",
+          "triggers": [
+            {
+              "type": "bossbar",
+              "bossbar": "Ru'Ten, Arcane Abomination",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "id": "ruten_25",
+          "name": "Ru'Ten 25%",
+          "triggers": [
+            {
+              "type": "bossbar",
+              "bossbar": "Ru'Ten, Arcane Abomination",
+              "value": 0.25
+            }
+          ]
+        },
+        {
+          "id": "intermission",
+          "name": "Intermission",
+          "triggers": [
+            {
+              "type": "subtitle",
+              "message": "Rage of the Wolf"
+            }
+          ]
+        },
+        {
+          "id": "hycenea_75",
+          "name": "Hycenea 75%",
+          "triggers": [
+            {
+              "type": "bossbar",
+              "bossbar": "Hycenea, Rage of the Wolf",
+              "value": 0.75
+            }
+          ]
+        },
+        {
+          "id": "hycenea_50",
+          "name": "Hycenea 50%",
+          "triggers": [
+            {
+              "type": "bossbar",
+              "bossbar": "Hycenea, Rage of the Wolf",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "id": "hycenea_25",
+          "name": "Hycenea 25%",
+          "triggers": [
+            {
+              "type": "bossbar",
+              "bossbar": "Hycenea, Rage of the Wolf",
+              "value": 0.25
+            }
+          ]
+        },
+        {
+          "id": "hycenea",
+          "name": "Hycenea",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Hycenea] It is over. Together... again..."
+            }
+          ]
+        },
+        {
+          "id": "completion",
+          "name": "Completion",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME has conquered Hexfall!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "black_mist",
+      "displayName": "Black Mist",
+      "category": "strike",
+      "sources": [
+        "MCU",
+        "MMEv2"
+      ],
+      "startTriggers": [
+        {
+          "type": "title",
+          "message": "Black Mist"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME has bested Varcosa in the depths of the Black Mist!"
+        },
+        {
+          "type": "chat",
+          "message": "I feel it... partin'... the beyond calls... and I answer..."
+        }
+      ],
+      "splits": [
+        {
+          "id": "clear",
+          "name": "Clear",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "Your class has been temporarily disabled."
+            },
+            {
+              "type": "chat",
+              "message": "[Varcosa] Ye best not lose them lanterns, matey. They be your only ticket out of here."
+            }
+          ]
+        },
+        {
+          "id": "boss_cutscene",
+          "name": "Boss Cutscene",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "Your class has been reenabled."
+            }
+          ]
+        },
+        {
+          "id": "boss_mobs",
+          "name": "Boss Mobs",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "Fine! Ye make me do this meself!"
+            }
+          ]
+        },
+        {
+          "id": "varcosa_last_breath",
+          "name": "Varcosa's Last Breath",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "Lingering Will"
+            }
+          ]
+        },
+        {
+          "id": "lingering_will",
+          "name": "Lingering Will",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME has bested Varcosa in the depths of the Black Mist!"
+            },
+            {
+              "type": "chat",
+              "message": "Yarr... why be this hurtin'? I shan't go!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forsworn_sanctum",
+      "displayName": "Forsworn Sanctum",
+      "category": "strike",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "title",
+          "message": "Forsworn Sanctum"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME conquered the corruption within the Forsworn Sanctum!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "clear",
+          "name": "Clear",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "[C'Shura] Kaul!"
+            }
+          ]
+        },
+        {
+          "id": "cshura_start",
+          "name": "C'Shura Start",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "C'Shura"
+            }
+          ]
+        },
+        {
+          "id": "cshura_kill",
+          "name": "C'Shura Kill",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[C'Shura] I feel... different. This place is a blight. It nearly took me. It could take you too."
+            }
+          ]
+        },
+        {
+          "id": "completion",
+          "name": "Completion",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME conquered the corruption within the Forsworn Sanctum!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "headless_horseman",
+      "displayName": "Headless Horseman",
+      "category": "strike",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "title",
+          "message": "Headless Horseman"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "message": "[The Horseman] No matter. I'll be seeing you all again soon."
+        }
+      ],
+      "splits": [
+        {
+          "id": "pumpkin_bomb",
+          "name": "Pumpkin Bomb",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "Seems like the Horseman threw a bomb to the center of the arena. Maybe you can disarm it?"
+            }
+          ]
+        },
+        {
+          "id": "horseman_kill",
+          "name": "Horseman Kill",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[The Horseman] No matter. I'll be seeing you all again soon."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "masqueraders_ruin",
+      "displayName": "Masquerader's Ruin",
+      "category": "strike",
+      "sources": [
+        "MCU",
+        "MMA"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "START!"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME defeated the Masked forces within Masquerader's Ruin!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "mob_requirement",
+          "name": "Mob Requirement",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "Something in the air around you shatters as yet another Masked falls. The way forward is open."
+            },
+            {
+              "type": "actionbar",
+              "contains": "Masked Killed : 450/450"
+            }
+          ]
+        },
+        {
+          "id": "clear",
+          "name": "Clear",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "Samwell"
+            }
+          ]
+        },
+        {
+          "id": "samwell_start",
+          "name": "Samwell Start",
+          "triggers": [
+            {
+              "type": "chat",
+              "starts_with": "[Samwell] We"
+            }
+          ]
+        },
+        {
+          "id": "samwell_daggers",
+          "name": "Samwell - Daggers",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Samwell] I'm done with you! That dagger is too much. I don't get why Blue can't heal from it? Is it another wool?!"
+            },
+            {
+              "type": "chat",
+              "starts_with": "[Samwell] I'"
+            }
+          ]
+        },
+        {
+          "id": "samwell_dps",
+          "name": "Samwell - DPS",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Samwell] I... I shouldn't have ever left the Valley..."
+            },
+            {
+              "type": "chat",
+              "starts_with": "[Samwell] I."
+            }
+          ]
+        },
+        {
+          "id": "samwell_death",
+          "name": "Samwell - Death",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME defeated the Masked forces within Masquerader's Ruin!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portal",
+      "displayName": "P.O.R.T.A.L.",
+      "category": "strike",
+      "sources": [
+        "MCU",
+        "MMA",
+        "MMEv2"
+      ],
+      "startTriggers": [
+        {
+          "type": "title",
+          "message": "P.O.R.T.A.L."
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME has defeated Iota in P.O.R.T.A.L. Strike!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "power_nodes",
+          "name": "Power Nodes",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "Doorway protocol engaged."
+            },
+            {
+              "type": "chat",
+              "regex": "Power node readings: Complete\\. Status: 3/3 nodes powered\\."
+            }
+          ]
+        },
+        {
+          "id": "clear",
+          "name": "Clear",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "subtitle",
+              "message": "Corrupted Construct"
+            }
+          ]
+        },
+        {
+          "id": "iota_start",
+          "name": "Iota Start",
+          "triggers": [
+            {
+              "type": "chat",
+              "starts_with": "[Iota] INTRU"
+            }
+          ]
+        },
+        {
+          "id": "iota_phase_1",
+          "name": "Iota Phase 1",
+          "triggers": [
+            {
+              "type": "chat",
+              "starts_with": "[Iota] DAMAG"
+            }
+          ]
+        },
+        {
+          "id": "iota_phase_2",
+          "name": "Iota Phase 2",
+          "triggers": [
+            {
+              "type": "chat",
+              "starts_with": "[Iota] DAMA9"
+            }
+          ]
+        },
+        {
+          "id": "iota_phase_3",
+          "name": "Iota Phase 3",
+          "triggers": [
+            {
+              "type": "chat",
+              "starts_with": "[Iota] DESTR"
+            }
+          ]
+        },
+        {
+          "id": "iota",
+          "name": "Iota",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME has defeated Iota in P.O.R.T.A.L. Strike!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sealed_remorse",
+      "displayName": "Sealed Remorse",
+      "category": "strike",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "START!"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME has stared into the void beyond the Sealed Remorse!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "attune",
+          "name": "Attune",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A faint noise goes off in the distance, and you feel a shiver run up your spine as your body attunes to the void."
+            }
+          ]
+        },
+        {
+          "id": "clear",
+          "name": "Clear",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "The void draws near..."
+            }
+          ]
+        },
+        {
+          "id": "brothers",
+          "name": "Brothers",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "Ghalkor & Svalgot"
+            }
+          ]
+        },
+        {
+          "id": "boss",
+          "name": "Boss",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "???"
+            }
+          ]
+        },
+        {
+          "id": "completion",
+          "name": "Completion",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME has stared into the void beyond the Sealed Remorse!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verdant_remnants",
+      "displayName": "Verdant Remnants",
+      "category": "strike",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "title",
+          "message": "Verdant Remnants"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME has taken down the Sons of the Forest within Verdant Fortress... again!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "clear",
+          "name": "Clear",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "Verdant Remnants"
+            }
+          ]
+        },
+        {
+          "id": "rkitxet",
+          "name": "R'Kitxet",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "R'Kitxet"
+            }
+          ]
+        },
+        {
+          "id": "completion",
+          "name": "Completion",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME has taken down the Sons of the Forest within Verdant Fortress... again!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eldrask",
+      "displayName": "Eldrask, The Waking Giant",
+      "category": "boss",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "The Waking Giant"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME has defeated Eldrask the Frost Giant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "66",
+          "name": "66%",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "The permafrost shield reforms around the giant, blocking damage dealt once more."
+            }
+          ]
+        },
+        {
+          "id": "33",
+          "name": "33%",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "The permafrost shield reforms again"
+            }
+          ]
+        },
+        {
+          "id": "16",
+          "name": "16%",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "The permafrost shield reforms a final time"
+            }
+          ]
+        },
+        {
+          "id": "0",
+          "name": "0%",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "THIS EARTH... WAS OURS ONCE... WE SHAPED IT..."
+            }
+          ]
+        },
+        {
+          "id": "death_animation",
+          "name": "Death Animation",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME has defeated Eldrask the Frost Giant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hekawt",
+      "displayName": "Hekawt",
+      "category": "boss",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Inheritor of Eternity"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME has defeated Hekawt, the Eternal!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "66",
+          "name": "66%",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "I PROMISED THAT IF I SAW YOU AGAIN, I WOULD DESTROY YOU."
+            }
+          ]
+        },
+        {
+          "id": "33",
+          "name": "33%",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "ENOUGH. YOU CANNOT DEFEAT ME."
+            }
+          ]
+        },
+        {
+          "id": "part_1",
+          "name": "Part 1",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "I... WILL... NOT... BE... DESTROYED..."
+            }
+          ]
+        },
+        {
+          "id": "cutscene",
+          "name": "Cutscene",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "The crystals! I can use them against Hekawt!"
+            }
+          ]
+        },
+        {
+          "id": "part_2",
+          "name": "Part 2",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "I SHOULD NOT HAVE EMERGED... THE VEIL IS FRAYING."
+            }
+          ]
+        },
+        {
+          "id": "death_animation",
+          "name": "Death Animation",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME has defeated Hekawt, the Eternal!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kaul",
+      "displayName": "Kaul",
+      "category": "boss",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Soul of the Jungle"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "title",
+          "message": "VICTORY"
+        }
+      ],
+      "splits": [
+        {
+          "id": "50",
+          "name": "50%",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "THE EARTH AND JUNGLE ARE ENTWINED. PRIMORDIAL, HEWN FROM SOIL AND STONE, END THEM."
+            }
+          ]
+        },
+        {
+          "id": "kaul_kill",
+          "name": "Kaul Kill",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "AS ALL RETURNS TO ROT, SO TOO HAS THIS ECHO FALLEN."
+            }
+          ]
+        },
+        {
+          "id": "death_animation",
+          "name": "Death Animation",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "VICTORY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sirius",
+      "displayName": "Sirius",
+      "category": "boss",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "The Final Herald"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME has defeated Sirius, the Final Herald!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "simon_says",
+          "name": "Simon Says",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Sirius] If I am to die, I am taking them with me..."
+            }
+          ]
+        },
+        {
+          "id": "dps_race",
+          "name": "DPS Race",
+          "triggers": [
+            {
+              "type": "subtitle",
+              "message": "Sirius, The Final Herald"
+            }
+          ]
+        },
+        {
+          "id": "death_animation",
+          "name": "Death Animation",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME has defeated Sirius, the Final Herald!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intruder",
+      "displayName": "The Intruding Nightmare",
+      "category": "boss",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "The Intruding Nightmare"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME has freed their mind from the grasp of the Twisted"
+        }
+      ],
+      "splits": [
+        {
+          "id": "85",
+          "name": "85%",
+          "triggers": [
+            {
+              "type": "bossbar",
+              "bossbar": "Twisted",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "id": "hallucination_1",
+          "name": "Hallucination 1",
+          "triggers": [
+            {
+              "type": "subtitle",
+              "message": "ONE. OF THREE."
+            }
+          ]
+        },
+        {
+          "id": "60",
+          "name": "60%",
+          "triggers": [
+            {
+              "type": "bossbar",
+              "bossbar": "Twisted",
+              "value": 0.6
+            }
+          ]
+        },
+        {
+          "id": "hallucination_2",
+          "name": "Hallucination 2",
+          "triggers": [
+            {
+              "type": "subtitle",
+              "message": "ONE. OF THREE."
+            }
+          ]
+        },
+        {
+          "id": "50",
+          "name": "50%",
+          "triggers": [
+            {
+              "type": "bossbar",
+              "bossbar": "Twisted",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "id": "35",
+          "name": "35%",
+          "triggers": [
+            {
+              "type": "bossbar",
+              "bossbar": "Twisted",
+              "value": 0.35
+            }
+          ]
+        },
+        {
+          "id": "hallucination_3",
+          "name": "Hallucination 3",
+          "triggers": [
+            {
+              "type": "subtitle",
+              "message": "ONE. OF THREE."
+            }
+          ]
+        },
+        {
+          "id": "25",
+          "name": "25%",
+          "triggers": [
+            {
+              "type": "bossbar",
+              "bossbar": "Twisted",
+              "value": 0.25
+            }
+          ]
+        },
+        {
+          "id": "dreamscapes",
+          "name": "Dreamscapes",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "THE CONNECTION. IS. WANING."
+            }
+          ]
+        },
+        {
+          "id": "0",
+          "name": "0%",
+          "triggers": [
+            {
+              "type": "bossbar",
+              "bossbar": "Twisted",
+              "value": 0
+            },
+            {
+              "type": "chat",
+              "message": "THE CONNECTION. HAS CLOSED."
+            }
+          ]
+        },
+        {
+          "id": "death_animation",
+          "name": "Death Animation",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME has freed their mind from the grasp of the Twisted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "godspore",
+      "displayName": "Godspore",
+      "category": "boss",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "The Mindslaver"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME has bested The Godspore!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "completion",
+          "name": "Completion",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "VICTORY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_knights_tomb",
+      "displayName": "Silver Knight's Tomb",
+      "category": "dungeon",
+      "sources": [
+        "MCU",
+        "MMEv2"
+      ],
+      "startTriggers": [
+        {
+          "type": "title",
+          "message": "Silver Knight's Tomb"
+        },
+        {
+          "type": "chat",
+          "starts_with": "Transferring you to skt",
+          "ignoreCase": true
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME has conquered the Silver Knight's Tomb -",
+          "difficultyRegex": "- (Savage|Normal|Story) Mode!"
+        },
+        {
+          "type": "chat",
+          "starts_with": "no, this cannot be! time... betrays me? why do the hands of time not turn? i... will... be... forever!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "four_mini_cleared",
+          "name": "4 Mini Cleared",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A loud rumbling emanates from the Cathedral, echoing through the city as the final time rift collapses."
+            }
+          ]
+        },
+        {
+          "id": "construct_start",
+          "name": "Construct Start",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "Silver Construct"
+            },
+            {
+              "type": "chat",
+              "starts_with": "[Silver Construct] UNAUTHORIZED ENTITY DETECTED: IMPLEMENTING REMOVAL PROCEDURE"
+            }
+          ]
+        },
+        {
+          "id": "construct_kill",
+          "name": "Construct Kill",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Silver Construct] PRIME DIRECTIVE FAILED: TOMB HAS BEEN BREACHED. ENABLING FORGE DEFENCES."
+            }
+          ]
+        },
+        {
+          "id": "armory_start",
+          "name": "Armory Start",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "Silver Armory"
+            }
+          ]
+        },
+        {
+          "id": "armory_kill",
+          "name": "Armory Kill",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "Victory"
+            }
+          ]
+        },
+        {
+          "id": "orasomn_start",
+          "name": "Orasomn Start",
+          "triggers": [
+            {
+              "type": "title",
+              "message": "Orasomn"
+            }
+          ]
+        },
+        {
+          "id": "orasomn_50",
+          "name": "Orasomn 50%",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "i call forth the echoes radiating from the edges of oblivion itself. rise, emperor!"
+            }
+          ]
+        },
+        {
+          "id": "orasomn_death",
+          "name": "Orasomn Death",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "no, this cannot be! time... betrays me? why do the hands of time not turn? i... will... be... forever!"
+            }
+          ]
+        },
+        {
+          "id": "completion",
+          "name": "Completion",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME has conquered the Silver Knight's Tomb -"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ephemeral_corridors",
+      "displayName": "Ephemeral Corridors",
+      "category": "dungeon",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "chat",
+          "message": "[Corridors] Welcome to floor 1!"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME has conquered the Standard Ephemeral Corridors!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "f1",
+          "name": "F1",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Corridors] The trader has unlocked new trades!"
+            }
+          ]
+        },
+        {
+          "id": "f1_button",
+          "name": "F1 Button",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Corridors] You have advanced to floor 2."
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "name": "F2",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Corridors] The trader has unlocked new trades!"
+            }
+          ]
+        },
+        {
+          "id": "f2_button",
+          "name": "F2 Button",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Corridors] You have advanced to floor 3."
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "name": "F3",
+          "timeMode": "since_run_start",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Corridors] The trader has unlocked new trades!"
+            }
+          ]
+        },
+        {
+          "id": "f3_button",
+          "name": "F3 Button",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "[Corridors] You have advanced to floor 3."
+            },
+            {
+              "type": "chat",
+              "message": "[Corridors] You have advanced to floor 4."
+            }
+          ]
+        },
+        {
+          "id": "completion",
+          "name": "Completion",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME has conquered the Standard Ephemeral Corridors!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skr_untended_furnace",
+      "displayName": "Untended Furnace",
+      "category": "skr",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Untended Furnace"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "puzzle",
+          "name": "Puzzle",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A deep humming emanates from somewhere else - another Silvergate has powered up, allowing you to leave safely."
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "name": "Exit",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skr_abello_mining_camp",
+      "displayName": "Abello Mining Camp",
+      "category": "skr",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Abello Mining Camp"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "puzzle",
+          "name": "Puzzle",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A deep humming emanates from somewhere else - another Silvergate has powered up, allowing you to leave safely."
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "name": "Exit",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skr_construct_ruins",
+      "displayName": "Construct Ruins",
+      "category": "skr",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Construct Ruins"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "puzzle",
+          "name": "Puzzle",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A deep humming emanates from somewhere else - another Silvergate has powered up, allowing you to leave safely."
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "name": "Exit",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skr_farraday_cage",
+      "displayName": "Farraday Cage",
+      "category": "skr",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Farraday Cage"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "puzzle",
+          "name": "Puzzle",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A deep humming emanates from somewhere else - another Silvergate has powered up, allowing you to leave safely."
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "name": "Exit",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skr_galos_outlook",
+      "displayName": "Galos Outlook",
+      "category": "skr",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Galos Outlook"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "puzzle",
+          "name": "Puzzle",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A deep humming emanates from somewhere else - another Silvergate has powered up, allowing you to leave safely."
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "name": "Exit",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skr_locis_respite",
+      "displayName": "Loci's Respite",
+      "category": "skr",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Loci's Respite"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "puzzle",
+          "name": "Puzzle",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A deep humming emanates from somewhere else - another Silvergate has powered up, allowing you to leave safely."
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "name": "Exit",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skr_outskirts_of_briarstone",
+      "displayName": "Outskirts of Briarstone",
+      "category": "skr",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Outskirts of Briarstone"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "puzzle",
+          "name": "Puzzle",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "You've found another button, and 3 chests have been added to the lootroom, completely filling it with treasures. 2 buttons remain."
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "name": "Exit",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skr_path_of_the_mind",
+      "displayName": "Path of the Mind",
+      "category": "skr",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Path of the Mind"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "puzzle",
+          "name": "Puzzle",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A deep humming emanates from somewhere else - another Silvergate has powered up, allowing you to leave safely."
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "name": "Exit",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skr_porphyry_garden",
+      "displayName": "Porphyry Garden",
+      "category": "skr",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Porphyry Garden"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "puzzle",
+          "name": "Puzzle",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A deep humming emanates from somewhere else - another Silvergate has powered up, allowing you to leave safely."
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "name": "Exit",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skr_resplendent_shuffle",
+      "displayName": "Resplendent Shuffle",
+      "category": "skr",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Resplendent Shuffle"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "puzzle",
+          "name": "Puzzle",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A deep humming emanates from somewhere else - another Silvergate has powered up, allowing you to leave safely."
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "name": "Exit",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skr_shrine_of_knowledge",
+      "displayName": "Shrine of Knowledge",
+      "category": "skr",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Shrine of Knowledge"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "puzzle",
+          "name": "Puzzle",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A deep humming emanates from somewhere else - another Silvergate has powered up, allowing you to leave safely."
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "name": "Exit",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skr_toxic_den",
+      "displayName": "Toxic Den",
+      "category": "skr",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "subtitle",
+          "message": "Toxic Den"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+        }
+      ],
+      "splits": [
+        {
+          "id": "puzzle",
+          "name": "Puzzle",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "A deep humming emanates from somewhere else - another Silvergate has powered up, allowing you to leave safely."
+            }
+          ]
+        },
+        {
+          "id": "exit",
+          "name": "Exit",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hunt_aloc_acoc",
+      "displayName": "Aloc Acoc",
+      "category": "hunt",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "chat",
+          "message": "The Hunt has begun and your class has been reenabled!"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "message": "Aloc Acoc has been slain and you obtained the complete haul of the loot."
+        }
+      ],
+      "splits": [
+        {
+          "id": "completion",
+          "name": "Aloc Acoc",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "Aloc Acoc has been slain and you obtained the complete haul of the loot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hunt_uamiel",
+      "displayName": "Uamiel",
+      "category": "hunt",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "chat",
+          "message": "The Hunt has begun and your class has been reenabled!"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "message": "Uamiel has been slain and you obtained the complete haul of the loot."
+        }
+      ],
+      "splits": [
+        {
+          "id": "completion",
+          "name": "Uamiel",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "Uamiel has been slain and you obtained the complete haul of the loot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hunt_the_impenetrable",
+      "displayName": "The Impenetrable",
+      "category": "hunt",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "chat",
+          "message": "The Hunt has begun and your class has been reenabled!"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "message": "The Impenetrable has been slain and you obtained the complete haul of the loot."
+        }
+      ],
+      "splits": [
+        {
+          "id": "completion",
+          "name": "The Impenetrable",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "The Impenetrable has been slain and you obtained the complete haul of the loot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hunt_experiment_seventy_one",
+      "displayName": "Experiment Seventy-One",
+      "category": "hunt",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "chat",
+          "message": "The Hunt has begun and your class has been reenabled!"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "message": "Experiment Seventy-One has been slain and you obtained the complete haul of the loot."
+        }
+      ],
+      "splits": [
+        {
+          "id": "completion",
+          "name": "Experiment Seventy-One",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "Experiment Seventy-One has been slain and you obtained the complete haul of the loot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hunt_core_elemental",
+      "displayName": "Core Elemental",
+      "category": "hunt",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "chat",
+          "message": "The Hunt has begun and your class has been reenabled!"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "message": "Core Elemental has been slain and you obtained the complete haul of the loot."
+        }
+      ],
+      "splits": [
+        {
+          "id": "completion",
+          "name": "Core Elemental",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "Core Elemental has been slain and you obtained the complete haul of the loot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hunt_steel_wing_hawk",
+      "displayName": "Steel Wing Hawk",
+      "category": "hunt",
+      "sources": [
+        "MCU"
+      ],
+      "startTriggers": [
+        {
+          "type": "chat",
+          "message": "The Hunt has begun and your class has been reenabled!"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "message": "Steel Wing Hawk has been slain and you obtained the complete haul of the loot."
+        }
+      ],
+      "splits": [
+        {
+          "id": "completion",
+          "name": "Steel Wing Hawk",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "Steel Wing Hawk has been slain and you obtained the complete haul of the loot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hunt_sporous_amalgam",
+      "displayName": "Sporous Amalgam",
+      "category": "hunt",
+      "sources": [
+        "MonumentaAddons"
+      ],
+      "startTriggers": [
+        {
+          "type": "chat",
+          "message": "The Hunt has begun and your class has been reenabled!"
+        }
+      ],
+      "endTriggers": [
+        {
+          "type": "chat",
+          "message": "Sporous Amalgam has been slain and you obtained the complete haul of the loot."
+        }
+      ],
+      "splits": [
+        {
+          "id": "completion",
+          "name": "Sporous Amalgam",
+          "triggers": [
+            {
+              "type": "chat",
+              "message": "Sporous Amalgam has been slain and you obtained the complete haul of the loot."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

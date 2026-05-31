@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 1,
+  "riddles": [
+    {
+      "id": "PORT_MANTEAU_FISH",
+      "displayName": "Port Manteau Fish",
+      "triggers": ["Below the tail of the Fish is a silently fading silvergate."],
+      "x": -458,
+      "y": 30,
+      "z": -869,
+      "location": "Port Manteau, Wolfswood"
+    },
+    {
+      "id": "GALENGARDE_PATH",
+      "displayName": "Galengarde Path",
+      "triggers": ["Along the path to the mighty city of Galengarde, an enshrined warped mushroom hides a deeper path."],
+      "x": -458,
+      "y": 59,
+      "z": -766,
+      "location": "Port Manteau, Wolfswood"
+    },
+    {
+      "id": "PORT_SIGNPOST",
+      "displayName": "Port Signpost",
+      "triggers": ["A signpost near the Port points two ways. Ignore them both and seek the spores nearby that have grown over the Silvergate you seek."],
+      "x": -521,
+      "y": 52,
+      "z": -751,
+      "location": "Port Manteau, Wolfswood"
+    },
+    {
+      "id": "GALENGARDE_BELL",
+      "displayName": "Galengarde Bell",
+      "triggers": ["Something about this Silvergate must have drawn the Dichen to build a tall bell tower around it."],
+      "x": -233,
+      "y": 104,
+      "z": -577,
+      "location": "Galengarde, Wolfswood"
+    },
+    {
+      "id": "WITCH_VILLAGE",
+      "displayName": "Witch Village",
+      "triggers": ["Once a village for witches, now abandoned in the shadow of the Tree of Life. This fountain holds the secret."],
+      "x": -475,
+      "y": 98,
+      "z": -274,
+      "location": "Abandoned Witch Village, Wolfswood"
+    },
+    {
+      "id": "VIBRANT_HOLLOW",
+      "displayName": "Vibrant Hollow",
+      "triggers": ["Once a settlement for the Dichen, now filled with toxic spores, a gate has been grown over by a towering mushroom that can still be contacted."],
+      "x": -480,
+      "y": 25,
+      "z": -634,
+      "location": "Vibrant Hollow, Wolfswood"
+    },
+    {
+      "id": "BASTILLE_PASSAGE",
+      "displayName": "Bastille Passage",
+      "triggers": ["Where watery passage exits near the Bastille, a small structure lies, overgrown by berries. It holds the way."],
+      "x": -235,
+      "y": 66,
+      "z": -487,
+      "location": "Shadowcast Bastille, Wolfswood"
+    },
+    {
+      "id": "CHANTERELLE_TREE",
+      "displayName": "Chanterelle Tree",
+      "triggers": ["A mighty fallen tree provides passage deeper into spore-infested territory. Seek where the spiders call home."],
+      "x": -333,
+      "y": 99,
+      "z": -412,
+      "location": "Chanterelle Village, Wolfswood"
+    },
+    {
+      "id": "AMANITA_STATUE",
+      "displayName": "Amanita Statue",
+      "triggers": ["Not far from the Mycelian territory stands a spear-wielding statue with a secret."],
+      "x": -368,
+      "y": 93,
+      "z": -336,
+      "location": "Amanita Colony, Wolfswood"
+    },
+    {
+      "id": "COVEN_FORTRESS",
+      "displayName": "Coven Fortress",
+      "triggers": [
+        "A place where horse and rider are one and the same, as the great Tree of Life looms above and holds a path yet unseen.",
+        "A place where horse and rider are one and the same, as the great Tree of Life looms above holds a path yet unseen."
+      ],
+      "x": -519,
+      "y": 90,
+      "z": -328,
+      "location": "Coven Fortress, Wolfswood"
+    },
+    {
+      "id": "LOCUM_TOTEM",
+      "displayName": "Locum Totem",
+      "triggers": ["A totem for the Porphyry was once a pathway walked by many. It can be again if you can find it."],
+      "x": -582,
+      "y": 35,
+      "z": -565,
+      "location": "Locum Vernantia, Wolfswood"
+    },
+    {
+      "id": "BEWITCHED_CHAPEL",
+      "displayName": "Bewitched Chapel",
+      "triggers": ["Where bewitching magic swirls dangerously, seek the chapel that offers no harm. Here a path awaits the seeker."],
+      "x": -690,
+      "y": 119,
+      "z": -161,
+      "location": "Bewitched Dominion, Wolfswood"
+    },
+    {
+      "id": "MUSHROOM_BAR",
+      "displayName": "Mushroom Bar",
+      "triggers": ["Taking the wrong seat in the bar within a mushroom might take you somewhere much further than expected."],
+      "x": -422,
+      "y": 106,
+      "z": -554,
+      "location": "Wolfswood"
+    },
+    {
+      "id": "SOUTHERN_AQUEDUCT",
+      "displayName": "Southern Aqueduct",
+      "triggers": ["Near hanging flowers and bowing trees, one might gaze upon Galengarde's Southern aqueduct on this overgrown structure and seek a path."],
+      "x": -380,
+      "y": 65,
+      "z": -545,
+      "location": "Wolfswood"
+    },
+    {
+      "id": "SWORD_TREE_WATER",
+      "displayName": "Sword Tree Water",
+      "triggers": ["Nearby, a mighty sword stands tall. But here, one might seek shelter below a tree contained by water and surrounded by fungi."],
+      "x": -209,
+      "y": 73,
+      "z": -300,
+      "location": "Wolfswood"
+    },
+    {
+      "id": "FISHING_VESSEL",
+      "displayName": "Fishing Vessel",
+      "triggers": ["Within sight of a silent fishing vessel, the Porphyry's sacred grounds hold a passage elsewhere."],
+      "x": -654,
+      "y": 38,
+      "z": -694,
+      "location": "Wolfswood"
+    },
+    {
+      "id": "HEX_TREE",
+      "displayName": "Hex Tree",
+      "triggers": ["Crystallized magic swirls wild in the presence of the Hex and the Tree of Life together. That magic might whisk one away."],
+      "x": -569,
+      "y": 111,
+      "z": -255,
+      "location": "Wolfswood"
+    },
+    {
+      "id": "WATER_WHEEL",
+      "displayName": "Water Wheel",
+      "triggers": [
+        "The Silver Order has claimed what the Witches have destroyed near the walls of New Antium. Seek the way beyond the water wheel.",
+        "The Silver Order has claimed what Witches have destroyed near the walls of New Antium. Seek the way beyond the water wheel."
+      ],
+      "x": -554,
+      "y": 145,
+      "z": -182,
+      "location": "Wolfswood"
+    },
+    {
+      "id": "LILYPAD_FLOWER",
+      "displayName": "Lilypad Flower",
+      "triggers": ["A blooming flower atop a grown lilypad on the west shore marks the pathway to the beyond."],
+      "x": -748,
+      "y": 31,
+      "z": -442,
+      "location": "Wolfswood"
+    },
+    {
+      "id": "OCEAN_GROTTO",
+      "displayName": "Ocean Grotto",
+      "triggers": ["Nearby, a mighty sword stands tall. But here, a view upon the ocean stands close to a wooded and crystallized grotto with a gate yet unseen."],
+      "x": -172,
+      "y": 72,
+      "z": -280,
+      "location": "Wolfswood"
+    },
+    {
+      "id": "ANTIUM_PAVILION",
+      "displayName": "Antium Pavilion",
+      "triggers": [
+        "The mighty gates of Antium draw the eye, but this small pavilion offers a way forward.",
+        "The mighty gates of Antium draw the eye, but the small pavilion offers a way forward."
+      ],
+      "x": -424,
+      "y": 155,
+      "z": -163,
+      "location": "New Antium"
+    },
+    {
+      "id": "PELIAS_SOLDIERS",
+      "displayName": "Pelias Soldiers",
+      "triggers": ["Antium's smoldering embers hide a passage where soldiers rest."],
+      "x": -439,
+      "y": 175,
+      "z": -95,
+      "location": "New Antium, Pelias' Keep"
+    },
+    {
+      "id": "VEILRIPPER_RACETRACK",
+      "displayName": "Veilripper Racetrack",
+      "triggers": ["Betwixt Antium's mighty cathedral and worn racetrack, a gate has faded to just beyond view."],
+      "x": -334,
+      "y": 181,
+      "z": 63,
+      "location": "Veilripper Epic Trader, Pelias' Keep"
+    },
+    {
+      "id": "SILVIC_QUARRY",
+      "displayName": "Silvic Quarry",
+      "triggers": ["Once a mighty tree near a shade-infested quarry, it still retains its passage to somewhere beyond."],
+      "x": -523,
+      "y": 182,
+      "z": -60,
+      "location": "Silvic Quarry, Pelias' Keep"
+    },
+    {
+      "id": "OLD_ANTIUM_FORGE",
+      "displayName": "Old Antium Forge",
+      "triggers": ["Where shades still prowl, a blacksmith has abandoned his forge and a path remains unseen."],
+      "x": -479,
+      "y": 179,
+      "z": 27,
+      "location": "Old Antium, Pelias' Keep"
+    },
+    {
+      "id": "SEREBRIAN_OUTSIDE",
+      "displayName": "Serebrian Outside",
+      "triggers": ["Outside of the Keep, although not quite yet upon the Serebrian Bridge is a tree with a path that goes deeper than any roots."],
+      "x": -447,
+      "y": 176,
+      "z": 318,
+      "location": "Pelias' Keep"
+    },
+    {
+      "id": "SEREBRIAN_SOLDIERS",
+      "displayName": "Serebrian Soldiers",
+      "triggers": ["Just upon the Serebrian Bridge stand two soldiers, watching the moon rise. Stand between them and the way shall open."],
+      "x": -377,
+      "y": 179,
+      "z": 406,
+      "location": "Serebrian Bridge, Pelias' Keep"
+    },
+    {
+      "id": "NADIR_DOME",
+      "displayName": "Nadir Dome",
+      "triggers": ["An unknowable domed structure near a twisted place where ocean touches emptiness below offers a path to somewhere else."],
+      "x": 38,
+      "y": 46,
+      "z": 769,
+      "location": "The Nadir, Star Point"
+    },
+    {
+      "id": "NADIR_WATCHTOWER",
+      "displayName": "Nadir Watchtower",
+      "triggers": ["A silent watchtower stands alone next to the twisted, unknowable remnants of an isle that was once captured."],
+      "x": -137,
+      "y": 37,
+      "z": 641,
+      "location": "The Nadir, Star Point"
+    },
+    {
+      "id": "TOLUMAEUS_TOWER",
+      "displayName": "Tolumaeus Tower",
+      "triggers": [
+        "This silent tower stands above the chittering entryway to the Gutters from the mighty megastructure. Atop the tower, you will find a gently pulsing gateway, bathing in moonlight.",
+        "This silent tower stands above the chittering entryway to the Gutters from the mighty megastructure. Atop the tower, you will find a gently pulsing gateway, bathing in moonlight"
+      ],
+      "x": 258,
+      "y": 116,
+      "z": 678,
+      "location": "The Tolumaeus, Star Point"
+    },
+    {
+      "id": "CLOCK_TOWER_ALTAR",
+      "displayName": "Clock Tower Altar",
+      "triggers": ["A temple built to house enchanted waters rests by a ledge, admiring the mighty clock tower. Let it not distract you, for it is the tiny altar that shall reveal the path."],
+      "x": 241,
+      "y": 132,
+      "z": 860,
+      "location": "Star Point"
+    },
+    {
+      "id": "FARAWAY_BEACON",
+      "displayName": "Faraway Beacon",
+      "triggers": ["Gaze from a ledge above onto the twisted structure that serves as the final reminder of a mighty battle near the great bridge. Nearby lies the flame of a faraway beacon."],
+      "x": -36,
+      "y": 117,
+      "z": 817,
+      "location": "Star Point"
+    },
+    {
+      "id": "AMETHYST_BANNER",
+      "displayName": "Amethyst Banner",
+      "triggers": ["In fields of amethyst, a banner hangs tattered, making a site of great importance for your search."],
+      "x": 129,
+      "y": 139,
+      "z": 1153,
+      "location": "Star Point"
+    },
+    {
+      "id": "STARS_GIFTS",
+      "displayName": "Stars Gifts",
+      "triggers": ["Turn away from the Stars' gifts and instead seek a hidden gate below the edge."],
+      "x": 55,
+      "y": 107,
+      "z": 1443,
+      "location": "Star Point"
+    },
+    {
+      "id": "ANCIENT_AQUEDUCT",
+      "displayName": "Ancient Aqueduct",
+      "triggers": ["An ancient aqueduct once carried water across the Serebrian isle. Now the crumbling edge reveals a fading Silvergate."],
+      "x": 139,
+      "y": 197,
+      "z": 1432,
+      "location": "Star Point"
+    },
+    {
+      "id": "SEREBRIAN_CITADEL_KNIGHTS",
+      "displayName": "Serebrian Citadel Knights",
+      "triggers": ["Two knights bear the cloth of the Serebrian Citadel, overlooking the mighty Silvergate. A smaller one lies between the two, barely glimmering."],
+      "x": 44,
+      "y": 212,
+      "z": 1070,
+      "location": "Star Point"
+    },
+    {
+      "id": "FRACTURED_TREE",
+      "displayName": "Fractured Tree",
+      "triggers": ["A boon to a fractured Tree of Life hides passage to something deeper. Inside the passage, a platform will take new shape as you approach."],
+      "x": 234,
+      "y": 133,
+      "z": 915,
+      "location": "Star Point"
+    },
+    {
+      "id": "EMPEROR_GAZE",
+      "displayName": "Emperor Gaze",
+      "triggers": ["A blighted ledge overlooks a blighted tree where no other corruption spreads, in the shadow of the Emperor's gaze."],
+      "x": 100,
+      "y": 185,
+      "z": 822,
+      "location": "Star Point"
+    },
+    {
+      "id": "LORDS_VISAGE",
+      "displayName": "Lords Visage",
+      "triggers": ["Gaze upon the Lord's Visage then seek the way forward behind his presence."],
+      "x": 130,
+      "y": 213,
+      "z": 868,
+      "location": "Star Point"
+    },
+    {
+      "id": "PUMPKIN_ALTAR",
+      "displayName": "Pumpkin Altar",
+      "triggers": ["Deep under the starblight, pumpkins sprout in twisting tunnels. Seek a tiny altar that will open to more, but beware: if you find an unfamiliar corpse, you've gone too far."],
+      "x": 105,
+      "y": 98,
+      "z": 941,
+      "location": "Pumpkin Tunnels, Star Point"
+    },
+    {
+      "id": "PUMPKIN_VINES",
+      "displayName": "Pumpkin Vines",
+      "triggers": ["In the sunless caves under the starblight, gourds grow unhindered in the stale air, their twisting vines unnaturally crumbling away rock and stone to make passage."],
+      "x": 65,
+      "y": 105,
+      "z": 935,
+      "location": "Pumpkin Tunnels, Star Point"
+    },
+    {
+      "id": "SEREBRIAN_CRYPTS",
+      "displayName": "Serebrian Crypts",
+      "triggers": ["A coffin within hidden Serebrian crypts opens not to the wail of the dead, but a pathway to somewhere else."],
+      "x": 234,
+      "y": 89,
+      "z": 905,
+      "location": "Star Point Crypts, Star Point"
+    }
+  ]
+}
