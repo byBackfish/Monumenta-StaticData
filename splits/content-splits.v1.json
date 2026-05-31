@@ -5,10 +5,6 @@
       "id": "celestial_zenith",
       "displayName": "Celestial Zenith",
       "category": "dungeon",
-      "sources": [
-        "MCU",
-        "MMEv2"
-      ],
       "startTriggers": [
         {
           "type": "title",
@@ -41,7 +37,6 @@
         {
           "id": "f1_clear",
           "name": "F1 Clear",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "subtitle",
@@ -62,7 +57,6 @@
         {
           "id": "f2_clear",
           "name": "F2 Clear",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "title",
@@ -83,7 +77,6 @@
         {
           "id": "f3_clear",
           "name": "F3 Clear",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "subtitle",
@@ -107,10 +100,6 @@
       "id": "hexfall",
       "displayName": "Hexfall",
       "category": "raid",
-      "sources": [
-        "MCU",
-        "MMA"
-      ],
       "startTriggers": [
         {
           "type": "title",
@@ -125,33 +114,25 @@
       ],
       "splits": [
         {
-          "id": "clear",
+          "id": "ruten_start",
           "name": "Clear",
-          "timeMode": "since_run_start",
+          "since": "run_start",
           "triggers": [
             {
-              "type": "subtitle",
-              "message": "Devouring Loci"
-            }
-          ]
-        },
-        {
-          "id": "ruten",
-          "name": "Ru'Ten",
-          "triggers": [
-            {
-              "type": "subtitle",
-              "message": "Ru'Ten, Devouring Loci"
+              "type": "title_subtitle",
+              "title": "Ru'Ten",
+              "subtitle": "Devouring Loci"
             }
           ]
         },
         {
           "id": "ruten_75",
           "name": "Ru'Ten 75%",
+          "since": "ruten_start",
           "triggers": [
             {
               "type": "bossbar",
-              "bossbar": "Ru'Ten, Arcane Abomination",
+              "bossbar": "Ru'Ten, Devouring Loci",
               "value": 0.75
             }
           ]
@@ -159,10 +140,11 @@
         {
           "id": "ruten_50",
           "name": "Ru'Ten 50%",
+          "since": "ruten_start",
           "triggers": [
             {
               "type": "bossbar",
-              "bossbar": "Ru'Ten, Arcane Abomination",
+              "bossbar": "Ru'Ten, Devouring Loci",
               "value": 0.5
             }
           ]
@@ -170,11 +152,24 @@
         {
           "id": "ruten_25",
           "name": "Ru'Ten 25%",
+          "since": "ruten_start",
           "triggers": [
             {
               "type": "bossbar",
-              "bossbar": "Ru'Ten, Arcane Abomination",
+              "bossbar": "Ru'Ten, Devouring Loci",
               "value": 0.25
+            }
+          ]
+        },
+        {
+          "id": "ruten_end",
+          "name": "Ru'Ten End",
+          "since": "ruten_start",
+          "triggers": [
+            {
+              "type": "chat",
+              "contains": "Ru'ten has fallen! The path forward has opened",
+              "ignoreCase": true
             }
           ]
         },
@@ -189,8 +184,20 @@
           ]
         },
         {
+          "id": "hycenea_start",
+          "name": "Hycenea Start",
+          "triggers": [
+            {
+              "type": "title_subtitle",
+              "title": "Hycenea",
+              "subtitle": "Rage of the Wolf"
+            }
+          ]
+        },
+        {
           "id": "hycenea_75",
           "name": "Hycenea 75%",
+          "since": "hycenea_start",
           "triggers": [
             {
               "type": "bossbar",
@@ -202,6 +209,7 @@
         {
           "id": "hycenea_50",
           "name": "Hycenea 50%",
+          "since": "hycenea_start",
           "triggers": [
             {
               "type": "bossbar",
@@ -213,6 +221,7 @@
         {
           "id": "hycenea_25",
           "name": "Hycenea 25%",
+          "since": "hycenea_start",
           "triggers": [
             {
               "type": "bossbar",
@@ -222,8 +231,9 @@
           ]
         },
         {
-          "id": "hycenea",
+          "id": "hycenea_end",
           "name": "Hycenea",
+          "since": "hycenea_start",
           "triggers": [
             {
               "type": "chat",
@@ -234,6 +244,7 @@
         {
           "id": "completion",
           "name": "Completion",
+          "since": "run_start",
           "triggers": [
             {
               "type": "chat",
@@ -247,10 +258,6 @@
       "id": "black_mist",
       "displayName": "Black Mist",
       "category": "strike",
-      "sources": [
-        "MCU",
-        "MMEv2"
-      ],
       "startTriggers": [
         {
           "type": "title",
@@ -271,7 +278,6 @@
         {
           "id": "clear",
           "name": "Clear",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "chat",
@@ -333,9 +339,6 @@
       "id": "forsworn_sanctum",
       "displayName": "Forsworn Sanctum",
       "category": "strike",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "title",
@@ -352,7 +355,6 @@
         {
           "id": "clear",
           "name": "Clear",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "title",
@@ -396,9 +398,6 @@
       "id": "headless_horseman",
       "displayName": "Headless Horseman",
       "category": "strike",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "title",
@@ -438,10 +437,6 @@
       "id": "masqueraders_ruin",
       "displayName": "Masquerader's Ruin",
       "category": "strike",
-      "sources": [
-        "MCU",
-        "MMA"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -458,7 +453,6 @@
         {
           "id": "mob_requirement",
           "name": "Mob Requirement",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "chat",
@@ -473,7 +467,6 @@
         {
           "id": "clear",
           "name": "Clear",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "title",
@@ -535,11 +528,6 @@
       "id": "portal",
       "displayName": "P.O.R.T.A.L.",
       "category": "strike",
-      "sources": [
-        "MCU",
-        "MMA",
-        "MMEv2"
-      ],
       "startTriggers": [
         {
           "type": "title",
@@ -556,7 +544,6 @@
         {
           "id": "power_nodes",
           "name": "Power Nodes",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "chat",
@@ -571,7 +558,6 @@
         {
           "id": "clear",
           "name": "Clear",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "subtitle",
@@ -635,9 +621,6 @@
       "id": "sealed_remorse",
       "displayName": "Sealed Remorse",
       "category": "strike",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -654,7 +637,6 @@
         {
           "id": "attune",
           "name": "Attune",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "chat",
@@ -665,7 +647,6 @@
         {
           "id": "clear",
           "name": "Clear",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "chat",
@@ -709,9 +690,6 @@
       "id": "verdant_remnants",
       "displayName": "Verdant Remnants",
       "category": "strike",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "title",
@@ -728,7 +706,6 @@
         {
           "id": "clear",
           "name": "Clear",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "title",
@@ -762,9 +739,6 @@
       "id": "eldrask",
       "displayName": "Eldrask, The Waking Giant",
       "category": "boss",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -834,9 +808,6 @@
       "id": "hekawt",
       "displayName": "Hekawt",
       "category": "boss",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -916,9 +887,6 @@
       "id": "kaul",
       "displayName": "Kaul",
       "category": "boss",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -968,9 +936,6 @@
       "id": "sirius",
       "displayName": "Sirius",
       "category": "boss",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1020,9 +985,6 @@
       "id": "intruder",
       "displayName": "The Intruding Nightmare",
       "category": "boss",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1045,7 +1007,8 @@
               "bossbar": "Twisted",
               "value": 0.85
             }
-          ]
+          ],
+          "since": "run_start"
         },
         {
           "id": "hallucination_1",
@@ -1066,7 +1029,8 @@
               "bossbar": "Twisted",
               "value": 0.6
             }
-          ]
+          ],
+          "since": "run_start"
         },
         {
           "id": "hallucination_2",
@@ -1087,7 +1051,8 @@
               "bossbar": "Twisted",
               "value": 0.5
             }
-          ]
+          ],
+          "since": "run_start"
         },
         {
           "id": "35",
@@ -1098,7 +1063,8 @@
               "bossbar": "Twisted",
               "value": 0.35
             }
-          ]
+          ],
+          "since": "run_start"
         },
         {
           "id": "hallucination_3",
@@ -1119,7 +1085,8 @@
               "bossbar": "Twisted",
               "value": 0.25
             }
-          ]
+          ],
+          "since": "run_start"
         },
         {
           "id": "dreamscapes",
@@ -1144,7 +1111,8 @@
               "type": "chat",
               "message": "THE CONNECTION. HAS CLOSED."
             }
-          ]
+          ],
+          "since": "run_start"
         },
         {
           "id": "death_animation",
@@ -1162,9 +1130,6 @@
       "id": "godspore",
       "displayName": "Godspore",
       "category": "boss",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1194,10 +1159,6 @@
       "id": "silver_knights_tomb",
       "displayName": "Silver Knight's Tomb",
       "category": "dungeon",
-      "sources": [
-        "MCU",
-        "MMEv2"
-      ],
       "startTriggers": [
         {
           "type": "title",
@@ -1224,7 +1185,6 @@
         {
           "id": "four_mini_cleared",
           "name": "4 Mini Cleared",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "chat",
@@ -1322,9 +1282,6 @@
       "id": "ephemeral_corridors",
       "displayName": "Ephemeral Corridors",
       "category": "dungeon",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "chat",
@@ -1341,7 +1298,6 @@
         {
           "id": "f1",
           "name": "F1",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "chat",
@@ -1362,7 +1318,6 @@
         {
           "id": "f2",
           "name": "F2",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "chat",
@@ -1383,7 +1338,6 @@
         {
           "id": "f3",
           "name": "F3",
-          "timeMode": "since_run_start",
           "triggers": [
             {
               "type": "chat",
@@ -1421,9 +1375,6 @@
       "id": "skr_untended_furnace",
       "displayName": "Untended Furnace",
       "category": "skr",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1463,9 +1414,6 @@
       "id": "skr_abello_mining_camp",
       "displayName": "Abello Mining Camp",
       "category": "skr",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1505,9 +1453,6 @@
       "id": "skr_construct_ruins",
       "displayName": "Construct Ruins",
       "category": "skr",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1547,9 +1492,6 @@
       "id": "skr_farraday_cage",
       "displayName": "Farraday Cage",
       "category": "skr",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1589,9 +1531,6 @@
       "id": "skr_galos_outlook",
       "displayName": "Galos Outlook",
       "category": "skr",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1631,9 +1570,6 @@
       "id": "skr_locis_respite",
       "displayName": "Loci's Respite",
       "category": "skr",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1673,9 +1609,6 @@
       "id": "skr_outskirts_of_briarstone",
       "displayName": "Outskirts of Briarstone",
       "category": "skr",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1715,9 +1648,6 @@
       "id": "skr_path_of_the_mind",
       "displayName": "Path of the Mind",
       "category": "skr",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1757,9 +1687,6 @@
       "id": "skr_porphyry_garden",
       "displayName": "Porphyry Garden",
       "category": "skr",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1799,9 +1726,6 @@
       "id": "skr_resplendent_shuffle",
       "displayName": "Resplendent Shuffle",
       "category": "skr",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1841,9 +1765,6 @@
       "id": "skr_shrine_of_knowledge",
       "displayName": "Shrine of Knowledge",
       "category": "skr",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1883,9 +1804,6 @@
       "id": "skr_toxic_den",
       "displayName": "Toxic Den",
       "category": "skr",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "subtitle",
@@ -1925,9 +1843,6 @@
       "id": "hunt_aloc_acoc",
       "displayName": "Aloc Acoc",
       "category": "hunt",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "chat",
@@ -1957,9 +1872,6 @@
       "id": "hunt_uamiel",
       "displayName": "Uamiel",
       "category": "hunt",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "chat",
@@ -1989,9 +1901,6 @@
       "id": "hunt_the_impenetrable",
       "displayName": "The Impenetrable",
       "category": "hunt",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "chat",
@@ -2021,9 +1930,6 @@
       "id": "hunt_experiment_seventy_one",
       "displayName": "Experiment Seventy-One",
       "category": "hunt",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "chat",
@@ -2053,9 +1959,6 @@
       "id": "hunt_core_elemental",
       "displayName": "Core Elemental",
       "category": "hunt",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "chat",
@@ -2085,9 +1988,6 @@
       "id": "hunt_steel_wing_hawk",
       "displayName": "Steel Wing Hawk",
       "category": "hunt",
-      "sources": [
-        "MCU"
-      ],
       "startTriggers": [
         {
           "type": "chat",
@@ -2117,9 +2017,6 @@
       "id": "hunt_sporous_amalgam",
       "displayName": "Sporous Amalgam",
       "category": "hunt",
-      "sources": [
-        "MonumentaAddons"
-      ],
       "startTriggers": [
         {
           "type": "chat",
