@@ -1063,10 +1063,6 @@
               "type": "bossbar",
               "bossbar": "Twisted",
               "value": 0.85
-            },
-            {
-              "type": "chat",
-              "message": "YOU ARE NOT. ALONE HERE."
             }
           ],
           "since": "run_start"
@@ -1079,7 +1075,8 @@
               "type": "subtitle",
               "message": "ONE. OF THREE."
             }
-          ]
+          ],
+          "since": "run_start"
         },
         {
           "id": "60",
@@ -1089,10 +1086,6 @@
               "type": "bossbar",
               "bossbar": "Twisted",
               "value": 0.6
-            },
-            {
-              "type": "chat",
-              "message": "YOU ARE NOT. ALONE HERE."
             }
           ],
           "since": "run_start"
@@ -1105,7 +1098,8 @@
               "type": "subtitle",
               "message": "ONE. OF THREE."
             }
-          ]
+          ],
+          "since": "run_start"
         },
         {
           "id": "50",
@@ -1115,10 +1109,6 @@
               "type": "bossbar",
               "bossbar": "Twisted",
               "value": 0.5
-            },
-            {
-              "type": "chat",
-              "message": "THOSE. WHO SLUMBERED HERE. AWAKEN."
             }
           ],
           "since": "run_start"
@@ -1131,10 +1121,6 @@
               "type": "bossbar",
               "bossbar": "Twisted",
               "value": 0.35
-            },
-            {
-              "type": "chat",
-              "message": "YOUR MIND. WILL. BE MINE."
             }
           ],
           "since": "run_start"
@@ -1147,7 +1133,8 @@
               "type": "subtitle",
               "message": "ONE. OF THREE."
             }
-          ]
+          ],
+          "since": "run_start"
         },
         {
           "id": "25",
@@ -1157,10 +1144,6 @@
               "type": "bossbar",
               "bossbar": "Twisted",
               "value": 0.25
-            },
-            {
-              "type": "chat",
-              "message": "THOSE MEMORIES. THEY WERE NOT ENOUGH."
             }
           ],
           "since": "run_start"
@@ -1173,7 +1156,8 @@
               "type": "chat",
               "message": "THE CONNECTION. IS. WANING."
             }
-          ]
+          ],
+          "since": "run_start"
         },
         {
           "id": "0",
@@ -1199,7 +1183,8 @@
               "type": "chat",
               "contains": "@PLAYERNAME has freed their mind from the grasp of the Twisted"
             }
-          ]
+          ],
+          "since": "run_start"
         }
       ]
     },
