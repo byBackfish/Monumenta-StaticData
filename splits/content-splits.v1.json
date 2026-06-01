@@ -130,42 +130,6 @@
           ]
         },
         {
-          "id": "ruten_75",
-          "name": "Ru'Ten 75%",
-          "since": "ruten_start",
-          "triggers": [
-            {
-              "type": "bossbar",
-              "bossbar": "Ru'Ten, Devouring Loci",
-              "value": 0.75
-            }
-          ]
-        },
-        {
-          "id": "ruten_50",
-          "name": "Ru'Ten 50%",
-          "since": "ruten_start",
-          "triggers": [
-            {
-              "type": "bossbar",
-              "bossbar": "Ru'Ten, Devouring Loci",
-              "value": 0.5
-            }
-          ]
-        },
-        {
-          "id": "ruten_25",
-          "name": "Ru'Ten 25%",
-          "since": "ruten_start",
-          "triggers": [
-            {
-              "type": "bossbar",
-              "bossbar": "Ru'Ten, Devouring Loci",
-              "value": 0.25
-            }
-          ]
-        },
-        {
           "id": "ruten_end",
           "name": "Ru'Ten End",
           "since": "ruten_start",
