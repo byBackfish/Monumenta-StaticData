@@ -455,6 +455,11 @@
       "category": "strike",
       "startTriggers": [
         {
+          "type": "chat",
+          "starts_with": "Transferring you to ruin",
+          "ignoreCase": true
+        },
+        {
           "type": "subtitle",
           "message": "START!"
         }
@@ -518,7 +523,7 @@
         },
         {
           "id": "samwell_dps",
-          "name": "Samwell - DPS",
+          "name": "Samwell - Death",
           "triggers": [
             {
               "type": "chat",
@@ -527,12 +532,16 @@
             {
               "type": "chat",
               "starts_with": "[Samwell] I."
+            },
+            {
+              "type": "title",
+              "message": "Victory"
             }
           ]
         },
         {
-          "id": "samwell_death",
-          "name": "Samwell - Death",
+          "id": "completion",
+          "name": "Completion",
           "triggers": [
             {
               "type": "chat",
