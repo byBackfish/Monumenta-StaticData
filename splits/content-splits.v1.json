@@ -357,6 +357,18 @@
       ],
       "splits": [
         {
+          "id": "mob_requirement",
+          "name": "Mob Requirement",
+          "since": "run_start",
+          "requires": [],
+          "triggers": [
+            {
+              "type": "actionbar",
+              "contains": "Masked Killed : 350/350"
+            }
+          ]
+        },
+        {
           "id": "clear",
           "name": "Clear",
           "triggers": [
@@ -457,6 +469,8 @@
         {
           "id": "mob_requirement",
           "name": "Mob Requirement",
+          "since": "run_start",
+          "requires": [],
           "triggers": [
             {
               "type": "chat",
@@ -552,6 +566,8 @@
         {
           "id": "power_nodes",
           "name": "Power Nodes",
+          "since": "run_start",
+          "requires": [],
           "triggers": [
             {
               "type": "chat",
@@ -564,8 +580,24 @@
           ]
         },
         {
+          "id": "souls",
+          "name": "Souls",
+          "since": "run_start",
+          "requires": [],
+          "triggers": [
+            {
+              "type": "actionbar",
+              "regex": "\\+1 S\\.O\\.U\\.L\\. Collected : 350/350"
+            }
+          ]
+        },
+        {
           "id": "clear",
           "name": "Clear",
+          "requires": [
+            "power_nodes",
+            "souls"
+          ],
           "triggers": [
             {
               "type": "subtitle",
