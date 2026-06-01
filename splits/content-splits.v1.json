@@ -1020,7 +1020,7 @@
       ],
       "splits": [
         {
-          "id": "85",
+          "id": "85_total",
           "name": "85%",
           "triggers": [
             {
@@ -1032,7 +1032,7 @@
           "since": "run_start"
         },
         {
-          "id": "hallucination_1",
+          "id": "hallucination_1_total",
           "name": "Hallucination 1",
           "triggers": [
             {
@@ -1043,7 +1043,7 @@
           "since": "run_start"
         },
         {
-          "id": "60",
+          "id": "60_total",
           "name": "60%",
           "triggers": [
             {
@@ -1055,7 +1055,7 @@
           "since": "run_start"
         },
         {
-          "id": "hallucination_2",
+          "id": "hallucination_2_total",
           "name": "Hallucination 2",
           "triggers": [
             {
@@ -1066,7 +1066,7 @@
           "since": "run_start"
         },
         {
-          "id": "50",
+          "id": "50_total",
           "name": "50%",
           "triggers": [
             {
@@ -1078,7 +1078,7 @@
           "since": "run_start"
         },
         {
-          "id": "35",
+          "id": "35_total",
           "name": "35%",
           "triggers": [
             {
@@ -1090,7 +1090,7 @@
           "since": "run_start"
         },
         {
-          "id": "hallucination_3",
+          "id": "hallucination_3_total",
           "name": "Hallucination 3",
           "triggers": [
             {
@@ -1101,7 +1101,7 @@
           "since": "run_start"
         },
         {
-          "id": "25",
+          "id": "25_total",
           "name": "25%",
           "triggers": [
             {
@@ -1113,7 +1113,7 @@
           "since": "run_start"
         },
         {
-          "id": "dreamscapes",
+          "id": "dreamscapes_total",
           "name": "Dreamscapes",
           "triggers": [
             {
@@ -1124,7 +1124,7 @@
           "since": "run_start"
         },
         {
-          "id": "0",
+          "id": "0_total",
           "name": "0%",
           "triggers": [
             {
@@ -1140,7 +1140,7 @@
           "since": "run_start"
         },
         {
-          "id": "death_animation",
+          "id": "death_animation_total",
           "name": "Death Animation",
           "triggers": [
             {
