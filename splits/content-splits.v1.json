@@ -172,7 +172,7 @@
           "triggers": [
             {
               "type": "chat",
-              "contains": "Ru'ten has fallen! The path forward has opened",
+              "regex": "Ru['’]Ten has been banished! The path forward has opened\\.+",
               "ignoreCase": true
             }
           ]
