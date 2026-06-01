@@ -364,7 +364,7 @@
           "triggers": [
             {
               "type": "actionbar",
-              "contains": "Masked Killed : 350/350"
+              "contains": "Soul Collected : 250/250"
             }
           ]
         },
