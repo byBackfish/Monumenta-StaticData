@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "ignoredMobs": {
+    "ids": [
+      "minecraft:sheep",
+      "minecraft:cow"
+    ],
+    "names": [
+      "Sheep",
+      "Cow"
+    ]
+  }
+}
