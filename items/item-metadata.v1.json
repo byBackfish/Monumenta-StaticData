@@ -2,5 +2,14 @@
   "schemaVersion": 1,
   "weaponsThatAreTools": [
     "Clearcut/valley"
+  ],
+  "allowedWeaponTypes": [
+    "Axe",
+    "Scythe",
+    "Mainhand Sword",
+    "Trident",
+    "Bow",
+    "Crossbow",
+    "Mainhand"
   ]
 }
