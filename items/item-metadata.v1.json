@@ -1,8 +1,7 @@
 {
   "schemaVersion": 1,
   "weaponsThatAreTools": [
-    "Clearcut/valley",
-    "Bouquet of Gold/valley"
+    "Clearcut/valley"
   ],
   "allowedWeaponTypes": [
     "Axe",
