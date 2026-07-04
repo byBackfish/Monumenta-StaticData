@@ -136,7 +136,7 @@
           "triggers": [
             {
               "type": "chat",
-              "regex": "Ru['’]Ten has been banished! The path forward has opened\\.+",
+              "regex": "Ru['\u2019]Ten has been banished! The path forward has opened\\.+",
               "ignoreCase": true
             }
           ]
@@ -1434,6 +1434,12 @@
             }
           ]
         }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "message": "[???] Are you sure? Abandoning will not yield any rewards."
+        }
       ]
     },
     {
@@ -1472,6 +1478,12 @@
               "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
             }
           ]
+        }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "message": "[???] Are you sure? Abandoning will not yield any rewards."
         }
       ]
     },
@@ -1512,6 +1524,12 @@
             }
           ]
         }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "message": "[???] Are you sure? Abandoning will not yield any rewards."
+        }
       ]
     },
     {
@@ -1550,6 +1568,12 @@
               "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
             }
           ]
+        }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "message": "[???] Are you sure? Abandoning will not yield any rewards."
         }
       ]
     },
@@ -1590,6 +1614,12 @@
             }
           ]
         }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "message": "[???] Are you sure? Abandoning will not yield any rewards."
+        }
       ]
     },
     {
@@ -1628,6 +1658,12 @@
               "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
             }
           ]
+        }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "message": "[???] Are you sure? Abandoning will not yield any rewards."
         }
       ]
     },
@@ -1668,6 +1704,12 @@
             }
           ]
         }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "message": "[???] Are you sure? Abandoning will not yield any rewards."
+        }
       ]
     },
     {
@@ -1706,6 +1748,12 @@
               "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
             }
           ]
+        }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "message": "[???] Are you sure? Abandoning will not yield any rewards."
         }
       ]
     },
@@ -1746,6 +1794,12 @@
             }
           ]
         }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "message": "[???] Are you sure? Abandoning will not yield any rewards."
+        }
       ]
     },
     {
@@ -1784,6 +1838,12 @@
               "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
             }
           ]
+        }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "message": "[???] Are you sure? Abandoning will not yield any rewards."
         }
       ]
     },
@@ -1824,6 +1884,12 @@
             }
           ]
         }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "message": "[???] Are you sure? Abandoning will not yield any rewards."
+        }
       ]
     },
     {
@@ -1862,6 +1928,12 @@
               "contains": "@PLAYERNAME looted a Puzzle Silver Knight Remnant!"
             }
           ]
+        }
+      ],
+      "cancelTriggers": [
+        {
+          "type": "chat",
+          "message": "[???] Are you sure? Abandoning will not yield any rewards."
         }
       ]
     },
