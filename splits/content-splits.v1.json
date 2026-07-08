@@ -1071,7 +1071,7 @@
           "triggers": [
             {
               "type": "bossbar",
-              "bossbar": "Twisted",
+              "bossbar": "Twisted lxxxxxxx",
               "value": 0.5
             }
           ],
@@ -1083,7 +1083,7 @@
           "triggers": [
             {
               "type": "bossbar",
-              "bossbar": "Twisted",
+              "bossbar": "Twisted lxxxxxxx",
               "value": 0.35
             }
           ],
@@ -1106,7 +1106,7 @@
           "triggers": [
             {
               "type": "bossbar",
-              "bossbar": "Twisted",
+              "bossbar": "Twisted lxxxxxxx",
               "value": 0.25
             }
           ],
