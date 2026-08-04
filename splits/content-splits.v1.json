@@ -1025,7 +1025,7 @@
           "triggers": [
             {
               "type": "bossbar",
-              "bossbar": "Twisted lxxxxxxx",
+              "bossbar": "Twisted",
               "value": 0.85
             }
           ],
@@ -1048,7 +1048,7 @@
           "triggers": [
             {
               "type": "bossbar",
-              "bossbar": "Twisted lxxxxxxx",
+              "bossbar": "Twisted",
               "value": 0.6
             }
           ],
@@ -1071,7 +1071,7 @@
           "triggers": [
             {
               "type": "bossbar",
-              "bossbar": "Twisted lxxxxxxx",
+              "bossbar": "Twisted",
               "value": 0.5
             }
           ],
@@ -1083,7 +1083,7 @@
           "triggers": [
             {
               "type": "bossbar",
-              "bossbar": "Twisted lxxxxxxx",
+              "bossbar": "Twisted",
               "value": 0.35
             }
           ],
@@ -1106,7 +1106,7 @@
           "triggers": [
             {
               "type": "bossbar",
-              "bossbar": "Twisted lxxxxxxx",
+              "bossbar": "Twisted",
               "value": 0.25
             }
           ],
@@ -1129,7 +1129,7 @@
           "triggers": [
             {
               "type": "bossbar",
-              "bossbar": "Twisted lxxxxxxx",
+              "bossbar": "Twisted",
               "value": 0
             },
             {
