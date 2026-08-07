@@ -304,7 +304,7 @@
     {
       "id": "AMETHYST_BANNER",
       "displayName": "Amethyst Banner",
-      "triggers": ["In fields of amethyst, a banner hangs tattered, making a site of great importance for your search."],
+      "triggers": ["In fields of amethyst, a banner hangs tattered, marking a site of great importance for your search."],
       "x": 129,
       "y": 139,
       "z": 1153,
