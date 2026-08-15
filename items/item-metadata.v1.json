@@ -3,6 +3,9 @@
   "weaponsThatAreTools": [
     "Clearcut/valley"
   ],
+  "toolsThatAreWeapons": [
+    "Veilripper/ring"
+  ],
   "allowedWeaponTypes": [
     "Axe",
     "Scythe",
