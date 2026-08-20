@@ -376,7 +376,7 @@
     {
       "id": "PUMPKIN_VINES",
       "displayName": "Pumpkin Vines",
-      "triggers": ["In the sunless caves under the starblight, gourds grow unhindered in the stale air, their twisting vines unnaturally crumbling away rock and stone to make passage."],
+      "triggers": ["In the sunless caves deep under the starblight, gourds grow unhindered in the stale air, their twisting vines unnaturally crumbling away rock and stone to make passage."],
       "x": 65,
       "y": 105,
       "z": 935,
