@@ -21,10 +21,6 @@
           "type": "chat",
           "contains": "@PLAYERNAME defeated the Celestial Zenith! (Ascension Level:",
           "difficultyRegex": "\\(Ascension Level:\\s*(\\d+)\\)"
-        },
-        {
-          "type": "chat",
-          "message": "[The Vesperidys] You will be devoured by the vessels still above."
         }
       ],
       "cancelTriggers": [
@@ -1201,10 +1197,6 @@
           "type": "chat",
           "contains": "@PLAYERNAME has conquered the Silver Knight's Tomb -",
           "difficultyRegex": "- (Savage|Normal|Story) Mode!"
-        },
-        {
-          "type": "chat",
-          "starts_with": "no, this cannot be! time... betrays me? why do the hands of time not turn? i... will... be... forever!"
         }
       ],
       "splits": [
