@@ -23,12 +23,7 @@
           "difficultyRegex": "\\(Ascension Level:\\s*(\\d+)\\)"
         }
       ],
-      "cancelTriggers": [
-        {
-          "type": "chat",
-          "contains": "[Zenith Party] Sending you to loot room"
-        }
-      ],
+      "cancelTriggers": [],
       "splits": [
         {
           "id": "f1_clear",
