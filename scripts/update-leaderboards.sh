@@ -9,8 +9,7 @@
 #   ./scripts/update-leaderboards.sh
 set -eu
 
-COMMIT=5af8a697f62963bce4c59ca1915a2c58927f140b
-URL="https://raw.githubusercontent.com/TeamMonumenta/monumenta-automation/${COMMIT}/leaderboards.yaml"
+URL="https://raw.githubusercontent.com/TeamMonumenta/monumenta-automation/master/leaderboards.yaml"
 
 DIR=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
 FILE="$DIR/leaderboards/leaderboards.v1.json"
