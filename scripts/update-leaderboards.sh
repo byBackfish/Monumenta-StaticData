@@ -1,9 +1,10 @@
 #!/bin/sh
-# Updates the "leaderboards" field of leaderboards/leaderboards.v1.json from
+# Updates the "leaderboards" map of leaderboards/leaderboards.v1.json from
 # TeamMonumenta/monumenta-automation's leaderboards.yaml.
 #
-# Only the "leaderboards" field is replaced; everything else in the JSON
-# (schemaVersion, "alias" object, ...) is preserved via jq.
+# The map is keyed by leaderboard name with the alias list as value. Only the
+# set of keys is refreshed: aliases of existing entries are preserved, new
+# names start with an empty list, removed names are dropped.
 #
 # Usage:
 #   ./scripts/update-leaderboards.sh
@@ -26,6 +27,13 @@ if [ "$count" -eq 0 ]; then
     exit 1
 fi
 
-jq --argjson leaderboards "$names" '.leaderboards = $leaderboards' "$FILE" > "${FILE}.tmp"
+jq --argjson names "$names" '
+    . as $root
+    | .leaderboards = (
+        $names
+        | map({key: ., value: ($root.leaderboards[.] // [])})
+        | from_entries
+      )
+' "$FILE" > "${FILE}.tmp"
 mv "${FILE}.tmp" "$FILE"
 echo "Updated ${FILE#${DIR}/}: $count leaderboards"
