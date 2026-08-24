@@ -4,17 +4,17 @@
     {
       "id": "special_twisteds",
       "displayName": "Special Twisteds",
-      "alertText": "SPECIAL TWISTED SPAWNED",
-      "triggers": [
-        "A fallen emperor rises once more...",
-        "A piercing radiance envelops you...",
-        "A suffocating cold grows around you...",
-        "A crimson mist fills the air...",
-        "An empire's lament washes over you...",
-        "A torrent of vengeful waves approaches...",
-        "Empowering justice awakens around you...",
-        "Sacrifices must be made..."
-      ]
+      "alertText": "SPECIAL TWISTED: $1",
+      "triggers": {
+        "A fallen emperor rises once more...": "Yeigar",
+        "A piercing radiance envelops you...": "Aesir",
+        "A suffocating cold grows around you...": "Alric",
+        "A crimson mist fills the air...": "C'Telsket",
+        "An empire's lament washes over you...": "Salazar",
+        "A torrent of vengeful waves approaches...": "Xeno",
+        "Empowering justice awakens around you...": "Isadora",
+        "Sacrifices must be made...": "C'Zanil"
+      }
     }
   ]
 }
