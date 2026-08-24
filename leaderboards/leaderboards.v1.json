@@ -194,5 +194,10 @@
     "CommunityHeroLevel",
     "AnniversaryGuest"
   ],
-  "alias": {}
+  "alias": {
+    "ooa": "Aurora",
+    "hf": "Hexfall",
+    "sskt": "SKTH",
+    "cz": "Zenith"
+  }
 }
