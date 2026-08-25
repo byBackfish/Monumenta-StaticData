@@ -126,7 +126,7 @@ function extractHopes(files: Map<string, Buffer>): Record<string, HopeSkin[]> {
     // The main .properties of a skin folder is named like its folder
     const isCanonical = basename === path.posix.basename(dir);
     if (!existing || isCanonical) {
-      itemEntry.set(dir, { uuid, canonicalProps: isCanonical ? props : existing?.canonicalProps ?? null });
+      itemEntry.set(dir, { uuid, canonicalProps: isCanonical ? props : (existing?.canonicalProps ?? props) });
     }
   }
 
@@ -138,6 +138,9 @@ function extractHopes(files: Map<string, Buffer>): Record<string, HopeSkin[]> {
       .map(([dir, info]) => ({
         uuid: info.uuid,
         name: skinNameFromFolder(path.posix.basename(dir), slug),
+        itemType: info.canonicalProps?.matchItems
+          ?.split(/[,\s]+/)
+          .filter(Boolean)[0] || undefined,
       }));
   }
   return result;

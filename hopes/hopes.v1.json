@@ -8,7 +8,8 @@
       },
       {
         "uuid": "dc5f8802-eeab-43fc-86ea-39b850ea4e84",
-        "name": "Slyyams"
+        "name": "Slyyams",
+        "itemType": "stone_sword"
       }
     ],
     "Aesir's Embrace": [
@@ -20,7 +21,8 @@
     "Aleph": [
       {
         "uuid": "74f1dc53-15cd-4fd7-a77f-d0375a557cf5",
-        "name": "Derailious"
+        "name": "Derailious",
+        "itemType": "bow"
       },
       {
         "uuid": "b084e7b8-4b40-4758-8d6d-3e51fc0e2e99",
@@ -28,37 +30,44 @@
       },
       {
         "uuid": "a1ab9d1c-05c2-45dd-946c-684389ba07bd",
-        "name": "Stealthys"
+        "name": "Stealthys",
+        "itemType": "bow"
       }
     ],
     "Annilys": [
       {
         "uuid": "39f797f0-bec0-4189-ae27-314522496375",
-        "name": "Azerest"
+        "name": "Azerest",
+        "itemType": "music_disc_11"
       },
       {
         "uuid": "fe1b8b10-fd00-4ba9-80a2-4a8a798ac1b2",
-        "name": "Depefs"
+        "name": "Depefs",
+        "itemType": "music_disc_11"
       }
     ],
     "Ardent Convergence": [
       {
         "uuid": "3f0ad9d9-2e82-4e49-9ad3-fd95b762e6b5",
-        "name": "Hypeaces"
+        "name": "Hypeaces",
+        "itemType": "blaze_rod"
       },
       {
         "uuid": "3909c64f-fc0b-4712-a5f8-68af83185ade",
-        "name": "Mandolinos"
+        "name": "Mandolinos",
+        "itemType": "blaze_rod"
       },
       {
         "uuid": "f347865e-4f58-4f6a-8a40-008550153aa2",
-        "name": "Shadowvisions"
+        "name": "Shadowvisions",
+        "itemType": "blaze_rod"
       }
     ],
     "Argentum Arbitrium": [
       {
         "uuid": "692f5e36-8c25-43b3-85e5-225cd407373e",
-        "name": "Venkleftis"
+        "name": "Venkleftis",
+        "itemType": "minecraft:iron_sword"
       }
     ],
     "Aurora Mirror": [
@@ -70,23 +79,27 @@
     "Bag of Hoarding": [
       {
         "uuid": "dcb82b45-d5dd-4bf2-a7d4-4036a656eef3",
-        "name": "Dedemoris"
+        "name": "Dedemoris",
+        "itemType": "minecraft:flower_pot"
       },
       {
         "uuid": "a181289b-ce21-4c1a-87db-b2c786f3857f",
-        "name": "Ramissues"
+        "name": "Ramissues",
+        "itemType": "minecraft:flower_pot"
       }
     ],
     "Blackblade Mask": [
       {
         "uuid": "64136b77-ec92-4b65-86f6-efcf62ea3f08",
-        "name": "Michthemoo"
+        "name": "Michthemoo",
+        "itemType": "leather_helmet"
       }
     ],
     "Blightblood Falchion": [
       {
         "uuid": "762b3203-5c3c-4731-b192-79e87d7d566f",
-        "name": "Airtankcat"
+        "name": "Airtankcat",
+        "itemType": "diamond_sword"
       },
       {
         "uuid": "1fd98003-121e-434d-94a1-6751e5c36005",
@@ -96,7 +109,8 @@
     "Bloodiron Pact": [
       {
         "uuid": "a741820c-397f-45d3-90ab-c6b1f79ac9ec",
-        "name": "Prets"
+        "name": "Prets",
+        "itemType": "chainmail_chestplate"
       }
     ],
     "Bonepiercer": [
@@ -108,51 +122,60 @@
     "Bouquet of Gold": [
       {
         "uuid": "ab7cb325-02bc-4504-8c6a-45ca7f170dad",
-        "name": "Abyssgazer Yens"
+        "name": "Abyssgazer Yens",
+        "itemType": "golden_sword"
       },
       {
         "uuid": "1fd98003-121e-434d-94a1-6751e5c36005",
-        "name": "Wizv2"
+        "name": "Wizv2",
+        "itemType": "golden_sword"
       }
     ],
     "Busturus": [
       {
         "uuid": "6a98623c-c5bb-42c2-b50c-6687c7bc8c7c",
-        "name": "Mimis"
+        "name": "Mimis",
+        "itemType": "iron_sword"
       }
     ],
     "C'Axtal's Crusher": [
       {
         "uuid": "49efe6a3-95c9-4fbf-a215-c66c40602cdb",
-        "name": "Darthspiders Caxtals Crusher"
+        "name": "Darthspiders Caxtals Crusher",
+        "itemType": "wooden_axe"
       }
     ],
     "Carcano 91/38": [
       {
         "uuid": "a35d493c-ba5c-4a05-bb21-393a09ba3f77",
-        "name": "Thedeathlords"
+        "name": "Thedeathlords",
+        "itemType": "crossbow"
       }
     ],
     "Clearcut": [
       {
         "uuid": "5d4d33c8-df3f-4625-a3aa-2a5a3b4959f8",
-        "name": "Avocados"
+        "name": "Avocados",
+        "itemType": "golden_axe"
       },
       {
         "uuid": "489ec4cd-43b6-4b3d-880d-f1002a467c80",
-        "name": "Ellie Creatures"
+        "name": "Ellie Creatures",
+        "itemType": "golden_axe"
       }
     ],
     "Colossal Crusher": [
       {
         "uuid": "a9ee61fb-16f4-40a0-9d05-d9dd0e16b3b5",
-        "name": "Tuesdayshark"
+        "name": "Tuesdayshark",
+        "itemType": "golden_axe"
       }
     ],
     "Comrade Kirkomotyga": [
       {
         "uuid": "82160fa4-e4f6-4746-ae1b-19d8d6c4a97e",
-        "name": "Mehazs Helician Spitzhacke"
+        "name": "Mehazs Helician Spitzhacke",
+        "itemType": "stone_pickaxe"
       }
     ],
     "Consuming Elixir": [
@@ -176,123 +199,147 @@
     "Corrupted Water Robe": [
       {
         "uuid": "65222623-7560-4fe7-b03e-e2efa9abfdc9",
-        "name": "Reds"
+        "name": "Reds",
+        "itemType": "leather_leggings"
       }
     ],
     "Covenmourn Rend": [
       {
         "uuid": "c063572a-fec2-48cb-8ef2-89b8a666642a",
-        "name": "God Swords"
+        "name": "God Swords",
+        "itemType": "crossbow"
       },
       {
         "uuid": "6054c85b-c331-42d1-8900-93428702a26c",
-        "name": "Nip Nops"
+        "name": "Nip Nops",
+        "itemType": "crossbow"
       },
       {
         "uuid": "ee034602-cc79-442a-ba4d-c5b1e5ed9df6",
-        "name": "Pepper1boy"
+        "name": "Pepper1boy",
+        "itemType": "crossbow"
       }
     ],
     "Crown of Chains": [
       {
         "uuid": "64136b77-ec92-4b65-86f6-efcf62ea3f08",
-        "name": "Michs"
+        "name": "Michs",
+        "itemType": "chainmail_helmet"
       },
       {
         "uuid": "44d5a746-644b-4ca3-a327-532b1efc50de",
-        "name": "Stickers"
+        "name": "Stickers",
+        "itemType": "chainmail_helmet"
       }
     ],
     "Cutter of Eons": [
       {
         "uuid": "021c8b52-e130-433a-b0f6-f4d801642a6c",
-        "name": "Magshadowlights"
+        "name": "Magshadowlights",
+        "itemType": "diamond_sword"
       },
       {
         "uuid": "76ffd110-6405-48e6-8f57-2d1979481d7e",
-        "name": "Michi 4171s"
+        "name": "Michi 4171s",
+        "itemType": "diamond_sword"
       },
       {
         "uuid": "1cab3cbf-f557-44f2-b55c-e754adf59354",
-        "name": "Nebz"
+        "name": "Nebz",
+        "itemType": "diamond_sword"
       },
       {
         "uuid": "3bd3f092-8832-46be-82cf-19edba51297a",
-        "name": "Noodlas"
+        "name": "Noodlas",
+        "itemType": "diamond_sword"
       },
       {
         "uuid": "3fe8b085-89cf-4d2f-822e-126e37394199",
-        "name": "Tofuing"
+        "name": "Tofuing",
+        "itemType": "diamond_sword"
       }
     ],
     "Deepslate Chunk": [
       {
         "uuid": "5271d135-3e29-4ed3-bd09-1c40c0195585",
-        "name": "Mscr"
+        "name": "Mscr",
+        "itemType": "nether_brick"
       }
     ],
     "Divine Watcher's Sword": [
       {
         "uuid": "464b0ec4-9c04-438c-b72c-34a1f2a866ec",
-        "name": "Chromatk1 Divine Watchers Sword"
+        "name": "Chromatk1 Divine Watchers Sword",
+        "itemType": "stone_sword"
       },
       {
         "uuid": "3f0ad9d9-2e82-4e49-9ad3-fd95b762e6b5",
-        "name": "Hypeaces Dwatchers"
+        "name": "Hypeaces Dwatchers",
+        "itemType": "stone_sword"
       },
       {
         "uuid": "5221277a-177e-42fa-83b4-f62855178109",
-        "name": "Ishtaros S Divine Watchers Sword"
+        "name": "Ishtaros S Divine Watchers Sword",
+        "itemType": "stone_sword"
       }
     ],
     "Downfall": [
       {
         "uuid": "463925a6-bf21-4a47-bf64-7b42f399168b",
-        "name": "Yets"
+        "name": "Yets",
+        "itemType": "golden_pickaxe"
       }
     ],
     "Dragonbone Dagger": [
       {
         "uuid": "c3edf282-f8d3-434b-aaa8-cc02ad29eed9",
-        "name": "Misthelixs"
+        "name": "Misthelixs",
+        "itemType": "golden_sword"
       }
     ],
     "Dreadwood Log": [
       {
         "uuid": "4ef5849d-f19e-42df-be24-635770a661d5",
-        "name": "Alans"
+        "name": "Alans",
+        "itemType": "shield"
       }
     ],
     "Eclipse Splitter": [
       {
         "uuid": "496e0963-cf0b-4bd8-8e94-4e9a24c8ed2c",
-        "name": "Sams"
+        "name": "Sams",
+        "itemType": "iron_sword"
       }
     ],
     "Energized Maelstrom": [
       {
         "uuid": "c6741ea8-5c0c-4a8e-8f7e-7c2c6eb88f4f",
-        "name": "Homeostatic Punk"
+        "name": "Homeostatic Punk",
+        "itemType": "iron_sword"
       }
     ],
     "Entcrusher": [
       {
         "uuid": "5271d135-3e29-4ed3-bd09-1c40c0195585",
-        "name": "Mscrs"
+        "name": "Mscrs",
+        "itemType": "wooden_axe"
       },
       {
         "uuid": "0d46334e-97eb-4ca4-a7c7-a3563947c0e9",
-        "name": "Whyprophecys"
+        "name": "Whyprophecys",
+        "itemType": "wooden_axe"
       }
     ],
     "Epoch Hammer": [
       {
         "uuid": "4e465a68-b4d2-45b8-ad42-460a653cfa1b",
-        "name": "Cyanoix"
+        "name": "Cyanoix",
+        "itemType": "iron_axe"
       },
       {
         "uuid": "1cab3cbf-f557-44f2-b55c-e754adf59354",
-        "name": "Nebz"
+        "name": "Nebz",
+        "itemType": "iron_axe"
       }
     ],
     "Eternal Bloom": [
@@ -304,37 +351,44 @@
     "Fading Horizon": [
       {
         "uuid": "9acbc0eb-f09b-4843-805a-2e1bdb85daba",
-        "name": "Spoopykay"
+        "name": "Spoopykay",
+        "itemType": "stone_sword"
       }
     ],
     "Fidget Spinner": [
       {
         "uuid": "2c667543-aa6c-45cd-bdbf-211551e176bb",
-        "name": "Nebs"
+        "name": "Nebs",
+        "itemType": "brewing_stand"
       }
     ],
     "Firmament": [
       {
         "uuid": "925ac555-8156-45aa-be4b-fe1fc3b4d55f",
-        "name": "K1smet0807"
+        "name": "K1smet0807",
+        "itemType": "cyan_shulker_box"
       },
       {
         "uuid": "9b956b87-9730-4b2f-b7ed-e568267bd1cf",
-        "name": "Mine Hinatas"
+        "name": "Mine Hinatas",
+        "itemType": "cyan_shulker_box"
       },
       {
         "uuid": "2a433490-328b-4c9a-b3a9-51dc66272d25",
-        "name": "Resonates"
+        "name": "Resonates",
+        "itemType": "cyan_shulker_box"
       }
     ],
     "Fleshbreaker": [
       {
         "uuid": "6da1cc59-f5a0-4f2b-8abf-2d67280fee4e",
-        "name": "Dailys"
+        "name": "Dailys",
+        "itemType": "iron_axe"
       },
       {
         "uuid": "84c661df-7cc1-40fc-ba35-a143849a8315",
-        "name": "Xernials"
+        "name": "Xernials",
+        "itemType": "iron_axe"
       }
     ],
     "Forgeflame Liquor": [
@@ -364,37 +418,44 @@
     "Frodian Yeetcannon": [
       {
         "uuid": "a7d27ed3-54fb-4d9f-becf-615c283c34e9",
-        "name": "Noelles Yeetcannon"
+        "name": "Noelles Yeetcannon",
+        "itemType": "crossbow"
       }
     ],
     "Frost Giant's Crescent": [
       {
         "uuid": "692f5e36-8c25-43b3-85e5-225cd407373e",
-        "name": "Venkleefs Frost Giants Crescent"
+        "name": "Venkleefs Frost Giants Crescent",
+        "itemType": "iron_hoe"
       }
     ],
     "Frost Giant's Crown": [
       {
         "uuid": "94155cfd-5a6e-4541-84a9-85c87e09e49b",
-        "name": "Creeptnts Frost Giants Crown"
+        "name": "Creeptnts Frost Giants Crown",
+        "itemType": "iron_helmet"
       },
       {
         "uuid": "a9203303-dfb5-4eab-b94d-3f5552e91466",
-        "name": "Lightnests Frost Giants Crown"
+        "name": "Lightnests Frost Giants Crown",
+        "itemType": "iron_helmet"
       }
     ],
     "Frost Giant's Crusher": [
       {
         "uuid": "dde80286-34dc-4f9e-b385-ef919ce08733",
-        "name": "Amecyans Frost Giants Crusher"
+        "name": "Amecyans Frost Giants Crusher",
+        "itemType": "iron_axe"
       },
       {
         "uuid": "859aa075-f5cf-4d6f-8083-d0f5717514af",
-        "name": "Bumkers Frost Giants Crusher"
+        "name": "Bumkers Frost Giants Crusher",
+        "itemType": "iron_axe"
       },
       {
         "uuid": "5e9deea5-f114-4cda-8feb-5709a4386de4",
-        "name": "Zaletings Frost Giants Crusher"
+        "name": "Zaletings Frost Giants Crusher",
+        "itemType": "iron_axe"
       }
     ],
     "Frost Giant's Greatsword": [
@@ -404,7 +465,8 @@
       },
       {
         "uuid": "60ca1e55-6825-4b92-9f64-898d9e546963",
-        "name": "Frostvaliances Frost Giants Greatsword"
+        "name": "Frostvaliances Frost Giants Greatsword",
+        "itemType": "iron_sword"
       },
       {
         "uuid": "2a09bcd0-e800-4b15-9693-bc9e69048030",
@@ -414,11 +476,13 @@
     "Frost Giant's Staff": [
       {
         "uuid": "b974976c-76c9-4df7-bee8-7718373d0d41",
-        "name": "Wearecraftys Frost Giant Staff"
+        "name": "Wearecraftys Frost Giant Staff",
+        "itemType": "bone"
       },
       {
         "uuid": "cf5058a4-757a-4093-81e4-39eb746b1fff",
-        "name": "Weslaifus Frost Giant Staff"
+        "name": "Weslaifus Frost Giant Staff",
+        "itemType": "bone"
       }
     ],
     "Fruit of Life": [
@@ -428,67 +492,81 @@
       },
       {
         "uuid": "e39f84a0-3e87-40a8-9c7f-a9bde70f82df",
-        "name": "Gnarzys"
+        "name": "Gnarzys",
+        "itemType": "chorus_fruit"
       },
       {
         "uuid": "cdc0012c-ae6f-4930-992f-9fd9c19c3c68",
-        "name": "Mrbspetabytes"
+        "name": "Mrbspetabytes",
+        "itemType": "chorus_fruit"
       },
       {
         "uuid": "d530499f-69d9-4421-8357-dbfde7dd1714",
-        "name": "Pandamoniums"
+        "name": "Pandamoniums",
+        "itemType": "chorus_fruit"
       },
       {
         "uuid": "9eb876b3-bd6c-4dcf-96c2-90405dc46a4b",
-        "name": "Sunnytian Awas"
+        "name": "Sunnytian Awas",
+        "itemType": "chorus_fruit"
       },
       {
         "uuid": "27b2315d-8040-4971-835a-0cb735728268",
-        "name": "Weekendtechs"
+        "name": "Weekendtechs",
+        "itemType": "chorus_fruit"
       },
       {
         "uuid": "a850c852-9b45-4ad1-a9e6-94bf7ea50596",
-        "name": "Xchocolatas"
+        "name": "Xchocolatas",
+        "itemType": "chorus_fruit"
       }
     ],
     "Fruits of the Catch": [
       {
         "uuid": "3c655e0f-f652-4bdd-9d8d-5df8489472c9",
-        "name": "Darwin Arrowoods"
+        "name": "Darwin Arrowoods",
+        "itemType": "cooked_salmon"
       },
       {
         "uuid": "b1d68433-e1b2-4e77-817d-b393ba2a4cf0",
-        "name": "Grasspunch"
+        "name": "Grasspunch",
+        "itemType": "cooked_salmon"
       }
     ],
     "Gladiolus": [
       {
         "uuid": "7fa51014-8fbb-4c23-8615-179892652238",
-        "name": "Alychemists"
+        "name": "Alychemists",
+        "itemType": "azure_bluet"
       }
     ],
     "Glass Rod": [
       {
         "uuid": "fc5deba1-36ee-4402-a7f5-144a0da0aa24",
-        "name": "Tks Rod"
+        "name": "Tks Rod",
+        "itemType": "stick"
       }
     ],
     "God Tamer": [
       {
         "uuid": "88f27e97-3cf0-4180-83b7-e4ce88705a77",
-        "name": "Fastyzooms"
+        "name": "Fastyzooms",
+        "itemType": "amethyst_shard"
       },
       {
         "uuid": "39f69695-61a6-4301-8e1c-2f31320b4a1a",
-        "name": "Galacticacs"
+        "name": "Galacticacs",
+        "itemType": "amethyst_shard"
       },
       {
         "uuid": "3f0ad9d9-2e82-4e49-9ad3-fd95b762e6b5",
-        "name": "Hypeace"
+        "name": "Hypeace",
+        "itemType": "amethyst_shard"
       },
       {
         "uuid": "57b33f5d-9063-4e45-9544-fc7f3ddd48b9",
-        "name": "Magicalsharks"
+        "name": "Magicalsharks",
+        "itemType": "amethyst_shard"
       }
     ],
     "Greyskull's Spellcaster": [
@@ -500,97 +578,118 @@
     "Harmonic Cap": [
       {
         "uuid": "3e654253-fedc-4e0d-aa89-df662a659c6e",
-        "name": "Er3222s"
+        "name": "Er3222s",
+        "itemType": "leather_helmet"
       }
     ],
     "Harmony's End": [
       {
         "uuid": "86397a0a-7665-4c52-ac08-4e336147a8be",
-        "name": "Aristotles Harmonys End"
+        "name": "Aristotles Harmonys End",
+        "itemType": "stone_sword"
       },
       {
         "uuid": "a47ca111-53a3-4db2-92bc-71aafe479193",
-        "name": "Elementninjas Harmonys End"
+        "name": "Elementninjas Harmonys End",
+        "itemType": "stone_sword"
       },
       {
         "uuid": "8308d177-23eb-4c96-9428-a93e61962437",
-        "name": "Moe Blocks Harmonys End"
+        "name": "Moe Blocks Harmonys End",
+        "itemType": "stone_sword"
       },
       {
         "uuid": "c0d19a24-df0d-4b04-85f0-f70f7b777ea3",
-        "name": "Ohsauces Harmonys End"
+        "name": "Ohsauces Harmonys End",
+        "itemType": "stone_sword"
       },
       {
         "uuid": "13ac1c8f-bdf4-4d8b-ba62-66ade197d031",
-        "name": "Spys Harmonys End"
+        "name": "Spys Harmonys End",
+        "itemType": "stone_sword"
       },
       {
         "uuid": "90cb497f-90af-4f6f-b633-c489ec057eef",
-        "name": "Taaara Harmonys End"
+        "name": "Taaara Harmonys End",
+        "itemType": "stone_sword"
       },
       {
         "uuid": "0f4cd590-1356-4742-bdda-693e73bdfe41",
-        "name": "Vxynks Harmonys End"
+        "name": "Vxynks Harmonys End",
+        "itemType": "stone_sword"
       }
     ],
     "Harrakfar's Claw": [
       {
         "uuid": "ac1c346e-a789-48cc-939c-fbf26012b82e",
-        "name": "Owopineplayers Harrakfars Claw"
+        "name": "Owopineplayers Harrakfars Claw",
+        "itemType": "iron_sword"
       }
     ],
     "Harvestman's Scythe": [
       {
         "uuid": "02a60b18-74a9-4d0b-8dd3-e9081c258f7d",
-        "name": "Beasts Harvestmans Scythe"
+        "name": "Beasts Harvestmans Scythe",
+        "itemType": "stone_hoe"
       },
       {
         "uuid": "44d5a746-644b-4ca3-a327-532b1efc50de",
-        "name": "Sticks Harvestmans Scythe"
+        "name": "Sticks Harvestmans Scythe",
+        "itemType": "stone_hoe"
       }
     ],
     "Heart of the Jungle": [
       {
         "uuid": "df4bd6f8-dce0-46e3-bc8c-6d56da483056",
-        "name": "Bonnys"
+        "name": "Bonnys",
+        "itemType": "apple"
       },
       {
         "uuid": "0c0b5354-e73d-4228-b85e-d6a6782ac0b3",
-        "name": "Fortes"
+        "name": "Fortes",
+        "itemType": "apple"
       },
       {
         "uuid": "39bdc1ff-a718-47bc-b933-90021670a846",
-        "name": "Getbentkids"
+        "name": "Getbentkids",
+        "itemType": "apple"
       },
       {
         "uuid": "6fc87157-31eb-4e3b-a3ce-079a3e633717",
-        "name": "Imfrons"
+        "name": "Imfrons",
+        "itemType": "apple"
       },
       {
         "uuid": "7a871987-7e7a-4731-9ec9-256ca8f3518c",
-        "name": "Leafs"
+        "name": "Leafs",
+        "itemType": "apple"
       },
       {
         "uuid": "021c8b52-e130-433a-b0f6-f4d801642a6c",
-        "name": "Magshadowlights"
+        "name": "Magshadowlights",
+        "itemType": "apple"
       },
       {
         "uuid": "0065977b-9622-4fc0-9ddd-fe2793cfcbd3",
-        "name": "Moonberserkers"
+        "name": "Moonberserkers",
+        "itemType": "apple"
       },
       {
         "uuid": "65222623-7560-4fe7-b03e-e2efa9abfdc9",
-        "name": "Reds"
+        "name": "Reds",
+        "itemType": "apple"
       },
       {
         "uuid": "76da0d5e-b391-4306-bdb4-3ede93d22285",
-        "name": "Warwolfs"
+        "name": "Warwolfs",
+        "itemType": "apple"
       }
     ],
     "Hellborn Crown": [
       {
         "uuid": "a741820c-397f-45d3-90ab-c6b1f79ac9ec",
-        "name": "Prets"
+        "name": "Prets",
+        "itemType": "chainmail_helmet"
       }
     ],
     "Helm of the Pumpking": [
@@ -602,7 +701,8 @@
     "Hollow Gladius": [
       {
         "uuid": "9acbc0eb-f09b-4843-805a-2e1bdb85daba",
-        "name": "Spoopykay"
+        "name": "Spoopykay",
+        "itemType": "stone_sword"
       }
     ],
     "Homestead": [
@@ -622,13 +722,15 @@
       },
       {
         "uuid": "27b2315d-8040-4971-835a-0cb735728268",
-        "name": "Weekendtechs Hrimnirs Frosted Eye"
+        "name": "Weekendtechs Hrimnirs Frosted Eye",
+        "itemType": "snowball"
       }
     ],
     "Ire of the Gods": [
       {
         "uuid": "c533926d-8c02-4dbf-91e8-268e66aaecca",
-        "name": "Laapsaps"
+        "name": "Laapsaps",
+        "itemType": "crossbow"
       },
       {
         "uuid": "bcacd8f4-dd7d-4228-bc86-7f6ca3d2bd05",
@@ -640,7 +742,8 @@
       },
       {
         "uuid": "839ce345-7c04-4f56-ab37-d088d4f85719",
-        "name": "Trainereevee"
+        "name": "Trainereevee",
+        "itemType": "crossbow"
       }
     ],
     "Iridium Bulwark": [
@@ -650,7 +753,8 @@
       },
       {
         "uuid": "99490dcb-f99b-487e-9dcb-7fdfadb54f88",
-        "name": "Lucilites"
+        "name": "Lucilites",
+        "itemType": "shield"
       },
       {
         "uuid": "c7fa90e4-869e-48f0-9683-c3b4f84f1c5a",
@@ -658,19 +762,22 @@
       },
       {
         "uuid": "58fbdb88-57bc-4d53-8c14-17748f5c438d",
-        "name": "Xeronsis"
+        "name": "Xeronsis",
+        "itemType": "shield"
       }
     ],
     "Iridium Crown": [
       {
         "uuid": "9d14885f-4418-48b1-ab7c-e59636b98be4",
-        "name": "Onion"
+        "name": "Onion",
+        "itemType": "iron_helmet"
       }
     ],
     "Iridium Injector": [
       {
         "uuid": "b8e3615f-9bc2-4f6d-b22c-9888c4ec2955",
-        "name": "Klaetius"
+        "name": "Klaetius",
+        "itemType": "blue_shulker_box"
       },
       {
         "uuid": "78b8630f-7a8c-418e-b26d-79226fb755f4",
@@ -678,11 +785,13 @@
       },
       {
         "uuid": "a7d27ed3-54fb-4d9f-becf-615c283c34e9",
-        "name": "Ashen Estus Flask"
+        "name": "Ashen Estus Flask",
+        "itemType": "light_blue_shulker_box"
       },
       {
         "uuid": "a7d27ed3-54fb-4d9f-becf-615c283c34e9",
-        "name": "Estus Flask"
+        "name": "Estus Flask",
+        "itemType": "orange_shulker_box"
       }
     ],
     "Journey's End": [
@@ -694,7 +803,8 @@
     "Judgement of the Voidstained": [
       {
         "uuid": "ab523543-3356-4752-a409-02d8d95851b5",
-        "name": "Jade"
+        "name": "Jade",
+        "itemType": "netherite_sword"
       }
     ],
     "Jungle's Requiem": [
@@ -706,7 +816,8 @@
     "Khrosmos": [
       {
         "uuid": "2f8ca535-992b-4fb6-838d-4f8688a920f7",
-        "name": "Icebergs"
+        "name": "Icebergs",
+        "itemType": "clock"
       }
     ],
     "King's Dolabra": [
@@ -722,23 +833,27 @@
     "King's Warden": [
       {
         "uuid": "bb11ff41-c94d-4231-b6c2-7107cac5436f",
-        "name": "Monarchs Kings Warden"
+        "name": "Monarchs Kings Warden",
+        "itemType": "golden_chestplate"
       },
       {
         "uuid": "bcacd8f4-dd7d-4228-bc86-7f6ca3d2bd05",
-        "name": "Owo12122s Kings Warden"
+        "name": "Owo12122s Kings Warden",
+        "itemType": "golden_chestplate"
       }
     ],
     "Kingslayer": [
       {
         "uuid": "1cbabeed-af0a-468c-b3bf-ca94d1f506cf",
-        "name": "Harshi"
+        "name": "Harshi",
+        "itemType": "golden_sword"
       }
     ],
     "Legionis": [
       {
         "uuid": "5271d135-3e29-4ed3-bd09-1c40c0195585",
-        "name": "Mscrs"
+        "name": "Mscrs",
+        "itemType": "bow"
       }
     ],
     "Lightbringer": [
@@ -750,19 +865,22 @@
     "Lost Adventurer's Relic": [
       {
         "uuid": "2644e698-634a-48f3-8aaf-e943888378bd",
-        "name": "Jtrees Lost Adventurers Relic"
+        "name": "Jtrees Lost Adventurers Relic",
+        "itemType": "light_blue_dye"
       }
     ],
     "Magistruct Breaker": [
       {
         "uuid": "91831ea5-652f-4ae9-92cf-6d037dc82c05",
-        "name": "Ankarins"
+        "name": "Ankarins",
+        "itemType": "iron_sword"
       }
     ],
     "Malakut's Scorn": [
       {
         "uuid": "8f359eb9-7763-42aa-b635-e66593addeca",
-        "name": "Woojus Malakuts Scorn"
+        "name": "Woojus Malakuts Scorn",
+        "itemType": "golden_hoe"
       }
     ],
     "Mechanical Armory": [
@@ -774,19 +892,22 @@
     "Memoria Ancestrale": [
       {
         "uuid": "c6741ea8-5c0c-4a8e-8f7e-7c2c6eb88f4f",
-        "name": "Homeostatic Punks"
+        "name": "Homeostatic Punks",
+        "itemType": "golden_axe"
       }
     ],
     "Moonscarred Clockblade": [
       {
         "uuid": "aa7d0845-bd6b-4e9c-9190-f2629e525db4",
-        "name": "Poythresss"
+        "name": "Poythresss",
+        "itemType": "iron_sword"
       }
     ],
     "Morphic Breaker": [
       {
         "uuid": "287091b8-404a-4a0a-9e52-90b157028073",
-        "name": "Blonzos"
+        "name": "Blonzos",
+        "itemType": "iron_axe"
       }
     ],
     "Mountain's Dew": [
@@ -806,7 +927,8 @@
     "Muranic Urn": [
       {
         "uuid": "b974976c-76c9-4df7-bee8-7718373d0d41",
-        "name": "Fishy3927"
+        "name": "Fishy3927",
+        "itemType": "dragon_breath"
       }
     ],
     "Myrahg's Pestilence": [
@@ -820,7 +942,8 @@
       },
       {
         "uuid": "be2f5f93-becb-4dad-bd54-ce7dc3040638",
-        "name": "Moe Muyos Myrahgs Pestilence"
+        "name": "Moe Muyos Myrahgs Pestilence",
+        "itemType": "trident"
       },
       {
         "uuid": "fc5deba1-36ee-4402-a7f5-144a0da0aa24",
@@ -830,7 +953,8 @@
     "Nalatia's Galeblade": [
       {
         "uuid": "d530499f-69d9-4421-8357-dbfde7dd1714",
-        "name": "Pandamonium Nalatias Galeblade"
+        "name": "Pandamonium Nalatias Galeblade",
+        "itemType": "iron_sword"
       }
     ],
     "Nihilo Pome": [
@@ -844,11 +968,13 @@
       },
       {
         "uuid": "6a98623c-c5bb-42c2-b50c-6687c7bc8c7c",
-        "name": "Mimis"
+        "name": "Mimis",
+        "itemType": "chorus_fruit"
       },
       {
         "uuid": "f374dfda-9760-4d74-aae8-7be7f61294b5",
-        "name": "Signal Pome"
+        "name": "Signal Pome",
+        "itemType": "chorus_fruit"
       }
     ],
     "Ocean's Gate": [
@@ -860,23 +986,27 @@
     "Perfect Crystallizer": [
       {
         "uuid": "64136b77-ec92-4b65-86f6-efcf62ea3f08",
-        "name": "Michs"
+        "name": "Michs",
+        "itemType": "heart_of_the_sea"
       }
     ],
     "Phasing Chestplate": [
       {
         "uuid": "bdc6ffd2-85d3-41fb-9c77-b14558cff3e7",
-        "name": "Pears"
+        "name": "Pears",
+        "itemType": "leather_chestplate"
       }
     ],
     "Phoenix Spellblade": [
       {
         "uuid": "f75de4c5-e9f5-4a8b-a30d-330bf9153cae",
-        "name": "Momos"
+        "name": "Momos",
+        "itemType": "golden_sword"
       },
       {
         "uuid": "5f08599a-5c98-4152-b694-94cfe5df328b",
-        "name": "Raindreams"
+        "name": "Raindreams",
+        "itemType": "golden_sword"
       }
     ],
     "Plague Bearer's Head": [
@@ -906,39 +1036,46 @@
     "Primordial Flames": [
       {
         "uuid": "e92ae65b-07c7-439d-83ce-7d8eb819eb06",
-        "name": "Epic67890s"
+        "name": "Epic67890s",
+        "itemType": "blaze_powder"
       }
     ],
     "Prismatic Blade": [
       {
         "uuid": "86397a0a-7665-4c52-ac08-4e336147a8be",
-        "name": "Aris"
+        "name": "Aris",
+        "itemType": "stone_sword"
       }
     ],
     "Pureshard Adze": [
       {
         "uuid": "cc6814db-a849-4749-aea0-a808e0d40e59",
-        "name": "Gasp97"
+        "name": "Gasp97",
+        "itemType": "diamond_pickaxe"
       }
     ],
     "Remnant of the Rose": [
       {
         "uuid": "86397a0a-7665-4c52-ac08-4e336147a8be",
-        "name": "Aristotles"
+        "name": "Aristotles",
+        "itemType": "shulker_box"
       },
       {
         "uuid": "cc6814db-a849-4749-aea0-a808e0d40e59",
-        "name": "Gasps"
+        "name": "Gasps",
+        "itemType": "red_shulker_box"
       },
       {
         "uuid": "27e3143a-33fc-403c-a7ef-311535af077f",
-        "name": "Marcywarcys"
+        "name": "Marcywarcys",
+        "itemType": "shulker_box"
       }
     ],
     "Remnants of Isharist": [
       {
         "uuid": "c7fa90e4-869e-48f0-9683-c3b4f84f1c5a",
-        "name": "Starstencahl"
+        "name": "Starstencahl",
+        "itemType": "shield"
       },
       {
         "uuid": "69eae71a-4921-4e8b-834c-8624821fa6d1",
@@ -966,13 +1103,15 @@
     "Rosethorn Blade": [
       {
         "uuid": "a7d27ed3-54fb-4d9f-becf-615c283c34e9",
-        "name": "Noelles"
+        "name": "Noelles",
+        "itemType": "stone_sword"
       }
     ],
     "Sacrificial Dagger": [
       {
         "uuid": "a741820c-397f-45d3-90ab-c6b1f79ac9ec",
-        "name": "Prets"
+        "name": "Prets",
+        "itemType": "stone_sword"
       }
     ],
     "Serebrian Godbrew": [
@@ -996,25 +1135,29 @@
     "Shadowstone Ballista": [
       {
         "uuid": "78b8630f-7a8c-418e-b26d-79226fb755f4",
-        "name": "Manmonkes"
+        "name": "Manmonkes",
+        "itemType": "crossbow"
       }
     ],
     "Shaman's Quiver": [
       {
         "uuid": "c533926d-8c02-4dbf-91e8-268e66aaecca",
-        "name": "Laapsaps Shamans Quiver"
+        "name": "Laapsaps Shamans Quiver",
+        "itemType": "tipped_arrow"
       }
     ],
     "Shimmering Wave": [
       {
         "uuid": "b18b72fb-43cf-4062-9a5e-324c7014cea1",
-        "name": "Yeigars"
+        "name": "Yeigars",
+        "itemType": "golden_pickaxe"
       }
     ],
     "Shivering Siphon": [
       {
         "uuid": "c30b33cf-8def-42d7-bc11-b32405f2898c",
-        "name": "Owoflys"
+        "name": "Owoflys",
+        "itemType": "wooden_sword"
       }
     ],
     "Silvari Coin": [
@@ -1026,13 +1169,15 @@
     "Silver Knight's Failure": [
       {
         "uuid": "84c661df-7cc1-40fc-ba35-a143849a8315",
-        "name": "Xernials Silver Knights Failure"
+        "name": "Xernials Silver Knights Failure",
+        "itemType": "iron_sword"
       }
     ],
     "Silverscale Razor": [
       {
         "uuid": "6054c85b-c331-42d1-8900-93428702a26c",
-        "name": "Nipnops"
+        "name": "Nipnops",
+        "itemType": "snowball"
       }
     ],
     "Silverthread Raiment": [
@@ -1044,45 +1189,55 @@
     "Skyfeller": [
       {
         "uuid": "55308348-096d-4798-bed6-99f831b75f97",
-        "name": "Cringeauras"
+        "name": "Cringeauras",
+        "itemType": "golden_pickaxe"
       }
     ],
     "Sliver of Perfection": [
       {
         "uuid": "edafbcd0-b21f-431e-82ec-a02648cf29db",
-        "name": "Cqmeras"
+        "name": "Cqmeras",
+        "itemType": "cooked_beef"
       },
       {
         "uuid": "74f1dc53-15cd-4fd7-a77f-d0375a557cf5",
-        "name": "Derailious"
+        "name": "Derailious",
+        "itemType": "cooked_beef"
       },
       {
         "uuid": "94d0d7ba-bf74-488d-839b-773452deac36",
-        "name": "Esciura"
+        "name": "Esciura",
+        "itemType": "cooked_beef"
       },
       {
         "uuid": "213e316a-86ca-4f90-a3e6-26b4a8b6f5cb",
-        "name": "Grapes"
+        "name": "Grapes",
+        "itemType": "cooked_beef"
       },
       {
         "uuid": "ed250515-cbf7-4234-9eb6-8169f5a939e8",
-        "name": "Inafricas"
+        "name": "Inafricas",
+        "itemType": "cooked_beef"
       },
       {
         "uuid": "925ac555-8156-45aa-be4b-fe1fc3b4d55f",
-        "name": "K1smets"
+        "name": "K1smets",
+        "itemType": "cooked_beef"
       },
       {
         "uuid": "48aaf20b-7fe2-4c6a-9bc5-9f602ff0a2cb",
-        "name": "Lordgeeks"
+        "name": "Lordgeeks",
+        "itemType": "cooked_beef"
       },
       {
         "uuid": "25c8b7fa-dd4a-4bbb-8cf9-d534cf66d6f9",
-        "name": "Nicknackgus"
+        "name": "Nicknackgus",
+        "itemType": "cooked_beef"
       },
       {
         "uuid": "3dd2e66d-367e-40f7-9c0a-cf15198b92f1",
-        "name": "Nook"
+        "name": "Nook",
+        "itemType": "cooked_beef"
       },
       {
         "uuid": "49751937-5aec-4167-a8e3-99211d74c230",
@@ -1092,13 +1247,15 @@
     "Soul of Ishnir": [
       {
         "uuid": "34e41172-df14-4a4a-a902-45a39d8455f7",
-        "name": "Licorices"
+        "name": "Licorices",
+        "itemType": "golden_hoe"
       }
     ],
     "Soulsinger": [
       {
         "uuid": "27b2315d-8040-4971-835a-0cb735728268",
-        "name": "Weekendtechs"
+        "name": "Weekendtechs",
+        "itemType": "jukebox"
       }
     ],
     "Stoneborn Sculptor": [
@@ -1110,55 +1267,66 @@
     "Stormblessed Greatspear": [
       {
         "uuid": "64a3df19-f39d-433f-9a41-58130d77b2d0",
-        "name": "Lemons"
+        "name": "Lemons",
+        "itemType": "trident"
       }
     ],
     "Stormborn Javelin": [
       {
         "uuid": "1306c30c-810a-4734-9a0f-08f19ea520d1",
-        "name": "Ian1kv"
+        "name": "Ian1kv",
+        "itemType": "trident"
       }
     ],
     "Sundew's Patience": [
       {
         "uuid": "a1ab9d1c-05c2-45dd-946c-684389ba07bd",
-        "name": "Stealthys Sundews Patience"
+        "name": "Stealthys Sundews Patience",
+        "itemType": "bow"
       }
     ],
     "Sword of the Exiled": [
       {
         "uuid": "48d69bda-e819-4aca-886d-1c9f3efc436b",
-        "name": "8bitsoda"
+        "name": "8bitsoda",
+        "itemType": "diamond_sword"
       },
       {
         "uuid": "f18f3672-f1e6-4e66-9020-3cb98679df32",
-        "name": "Braes"
+        "name": "Braes",
+        "itemType": "diamond_sword"
       },
       {
         "uuid": "55308348-096d-4798-bed6-99f831b75f97",
-        "name": "Cringes"
+        "name": "Cringes",
+        "itemType": "diamond_sword"
       },
       {
         "uuid": "50f59447-27c7-4d20-8944-68c55fabda84",
-        "name": "Indws"
+        "name": "Indws",
+        "itemType": "diamond_sword"
       },
       {
         "uuid": "d73a7af2-6c2c-414a-9e17-288af26fb4e4",
-        "name": "Jrooks"
+        "name": "Jrooks",
+        "itemType": "diamond_sword"
       },
       {
         "uuid": "a306dbb8-b7b1-4a1d-b971-3e550fa642ab",
-        "name": "Pakstf"
+        "name": "Pakstf",
+        "itemType": "diamond_sword"
       },
       {
         "uuid": "463925a6-bf21-4a47-bf64-7b42f399168b",
-        "name": "Yets"
+        "name": "Yets",
+        "itemType": "diamond_sword"
       }
     ],
     "Tear of the Moon": [
       {
         "uuid": "bb11ff41-c94d-4231-b6c2-7107cac5436f",
-        "name": "Monarchs"
+        "name": "Monarchs",
+        "itemType": "ghast_tear"
       }
     ],
     "Teewie's Eternal Tulip": [
@@ -1170,43 +1338,51 @@
     "Telum Immoriel": [
       {
         "uuid": "a9ee61fb-16f4-40a0-9d05-d9dd0e16b3b5",
-        "name": "Tuesdaysharks"
+        "name": "Tuesdaysharks",
+        "itemType": "stone_sword"
       },
       {
         "uuid": "295d3ed2-902b-4b79-bb39-07e3d27fa708",
-        "name": "Kaecie"
+        "name": "Kaecie",
+        "itemType": "stone_sword"
       },
       {
         "uuid": "f65f5e1c-a38e-42cc-bbbc-e1d1668291b0",
-        "name": "Pnoot"
+        "name": "Pnoot",
+        "itemType": "stone_sword"
       },
       {
         "uuid": "13ac1c8f-bdf4-4d8b-ba62-66ade197d031",
-        "name": "Spys"
+        "name": "Spys",
+        "itemType": "stone_sword"
       }
     ],
     "Tesseract of Magic (u)": [
       {
         "uuid": "2644e698-634a-48f3-8aaf-e943888378bd",
-        "name": "Jtrees"
+        "name": "Jtrees",
+        "itemType": "ender_pearl"
       }
     ],
     "Tesseract of the Body (u)": [
       {
         "uuid": "a5bfe7a4-ab99-422c-bc7e-e31ab1a02055",
-        "name": "Pelis Tesseract Of The Body"
+        "name": "Pelis Tesseract Of The Body",
+        "itemType": "orange_stained_glass"
       }
     ],
     "Tesseract of the Mind (u)": [
       {
         "uuid": "6e524584-0c2b-452a-b245-7c741520a09d",
-        "name": "Blissedyuis Tesseract Of Mind U"
+        "name": "Blissedyuis Tesseract Of Mind U",
+        "itemType": "cyan_stained_glass"
       }
     ],
     "Tesseract of the Soul (u)": [
       {
         "uuid": "42838cc3-b34d-4fbf-8bc1-290cafc9bf31",
-        "name": "Flare White Tesseract U"
+        "name": "Flare White Tesseract U",
+        "itemType": "white_stained_glass"
       },
       {
         "uuid": "48aaf20b-7fe2-4c6a-9bc5-9f602ff0a2cb",
@@ -1216,35 +1392,42 @@
     "The Earthshaker": [
       {
         "uuid": "287091b8-404a-4a0a-9e52-90b157028073",
-        "name": "Blonzos"
+        "name": "Blonzos",
+        "itemType": "golden_pickaxe"
       },
       {
         "uuid": "84be59ee-b0f8-4601-97db-52dab2c2fbf7",
-        "name": "Coconas Earthshaker"
+        "name": "Coconas Earthshaker",
+        "itemType": "golden_pickaxe"
       },
       {
         "uuid": "5271d135-3e29-4ed3-bd09-1c40c0195585",
-        "name": "Mscrs Earthshaker"
+        "name": "Mscrs Earthshaker",
+        "itemType": "golden_pickaxe"
       },
       {
         "uuid": "65222623-7560-4fe7-b03e-e2efa9abfdc9",
-        "name": "Reds Earthshaker"
+        "name": "Reds Earthshaker",
+        "itemType": "golden_pickaxe"
       }
     ],
     "The Vedha's Soulcrusher": [
       {
         "uuid": "b92bc43d-d7d8-4d7a-ba45-2cbf669f0809",
-        "name": "Mscr The Vedhas Soulcrusher"
+        "name": "Mscr The Vedhas Soulcrusher",
+        "itemType": "wooden_axe"
       },
       {
         "uuid": "1cab3cbf-f557-44f2-b55c-e754adf59354",
-        "name": "Nebz Vedhas Soulcrusher"
+        "name": "Nebz Vedhas Soulcrusher",
+        "itemType": "wooden_axe"
       }
     ],
     "Threadwarped Tkaa": [
       {
         "uuid": "8963df29-1fe4-447c-81c0-8ed27da38361",
-        "name": "Crusaders"
+        "name": "Crusaders",
+        "itemType": "stone_axe"
       }
     ],
     "Thunder and Tempest": [
@@ -1256,17 +1439,20 @@
     "Thundering Legacy": [
       {
         "uuid": "003877ab-bf6f-4f40-bbe3-c932e1f607c5",
-        "name": "Thelegend001b"
+        "name": "Thelegend001b",
+        "itemType": "diamond_sword"
       }
     ],
     "Titan Spear": [
       {
         "uuid": "e2246e8d-3bb6-4070-b664-cb3e8d631e14",
-        "name": "Amowos"
+        "name": "Amowos",
+        "itemType": "trident"
       },
       {
         "uuid": "ce6ccdf2-30b8-47ce-9582-bf8264f57973",
-        "name": "I Vuken I"
+        "name": "I Vuken I",
+        "itemType": "trident"
       }
     ],
     "Tome of the Jungle": [
@@ -1278,13 +1464,15 @@
     "Tournament Longsword": [
       {
         "uuid": "a306dbb8-b7b1-4a1d-b971-3e550fa642ab",
-        "name": "Paks"
+        "name": "Paks",
+        "itemType": "iron_sword"
       }
     ],
     "True North": [
       {
         "uuid": "abd3e676-f320-44f9-9021-043a2b31c387",
-        "name": "Orithespirits"
+        "name": "Orithespirits",
+        "itemType": "compass"
       }
     ],
     "Truest North": [
@@ -1294,15 +1482,18 @@
       },
       {
         "uuid": "3f1692ff-62fa-4646-bcc1-60c58961ddb0",
-        "name": "Anons Truestnorth"
+        "name": "Anons Truestnorth",
+        "itemType": "compass"
       },
       {
         "uuid": "5bec603a-1e09-4812-9598-3504116f635c",
-        "name": "Eshpeon Truestnorth"
+        "name": "Eshpeon Truestnorth",
+        "itemType": "shears"
       },
       {
         "uuid": "9922aae8-ec9c-4866-9cd6-6b7a22bd865a",
-        "name": "H4ikiris"
+        "name": "H4ikiris",
+        "itemType": "compass"
       },
       {
         "uuid": "0f4cd590-1356-4742-bdda-693e73bdfe41",
@@ -1312,13 +1503,15 @@
     "Vermin's Waltz": [
       {
         "uuid": "3dd2e66d-367e-40f7-9c0a-cf15198b92f1",
-        "name": "Nook Vermins Waltz"
+        "name": "Nook Vermins Waltz",
+        "itemType": "wooden_hoe"
       }
     ],
     "Versatile Vase": [
       {
         "uuid": "f309f1a6-9440-4b18-adea-cab20217eb52",
-        "name": "Tabyco"
+        "name": "Tabyco",
+        "itemType": "snowball"
       }
     ],
     "Word of the Architect": [
@@ -1330,11 +1523,13 @@
     "Worldshaper's Loom": [
       {
         "uuid": "8a350042-ed6a-474b-a4b1-86e6126e0be1",
-        "name": "Cigaretteafters Worldshapers Loom"
+        "name": "Cigaretteafters Worldshapers Loom",
+        "itemType": "light_gray_shulker_box"
       },
       {
         "uuid": "dcb82b45-d5dd-4bf2-a7d4-4036a656eef3",
-        "name": "Treatsfordays Worldshapers Loom"
+        "name": "Treatsfordays Worldshapers Loom",
+        "itemType": "light_gray_shulker_box"
       }
     ]
   }
